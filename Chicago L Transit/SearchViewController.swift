@@ -9,14 +9,29 @@
 import UIKit
 import MapKit
 
+struct CellData {
+    let image: UIImage?
+    let message: String?
+}
+
+
+
 class SearchViewController: UITableViewController {
     
     var stations = [LStation]()
+    
+    var cellData = [CellData]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        grabData()
-        print(stations[4].coordinate)
+        //grabData()
+        //print(stations[4].coordinate)
+        
+        cellData = [CellData.init(image: #imageLiteral(resourceName: "Flag_of_Chicago"), message: "This is a test"), CellData.init(image: #imageLiteral(resourceName: "Flag_of_Chicago"), message: "This is a test"), CellData.init(image: #imageLiteral(resourceName: "Flag_of_Chicago"), message: "This is a test"), CellData.init(image: #imageLiteral(resourceName: "Flag_of_Chicago"), message: "This is a test"), CellData.init(image: #imageLiteral(resourceName: "Flag_of_Chicago"), message: "This is a test"), CellData.init(image: #imageLiteral(resourceName: "Flag_of_Chicago"), message: "This is a test"), CellData.init(image: #imageLiteral(resourceName: "Flag_of_Chicago"), message: "This is a test")]
+        
+        self.tableView.register(CustomCell.self, forCellReuseIdentifier: "custom")
+        
+        self.tableView.rowHeight = 70
         
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -71,46 +86,47 @@ class SearchViewController: UITableViewController {
             stations.append(LStation(name: name, stopName: stopName, accessible: accessible, red: red, blue: blue, green: green, brown: brown, purple: purple, purpleEx: purpleExp, yellow: yellow, pink: pink, orange: orange, lines: lines, coordinate: coordinate))
         }
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
+    
+    
 
     // MARK: - Table view data source
 
-    override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return 0
-    }
+//    override func numberOfSections(in tableView: UITableView) -> Int {
+//        // #warning Incomplete implementation, return the number of sections
+//        return 0
+//    }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        return 0
+        //return stations.count
+        return cellData.count
     }
 
-    /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-
-        // Configure the cell...
-
+//        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
+//
+//        let station = stations[indexPath.row]
+//
+//        cell.textLabel?.text = station.name
+//
+//        cell.backgroundColor = .blue
+//
+//
+//
+//        return cell
+        
+        let cell = self.tableView.dequeueReusableCell(withIdentifier: "custom") as! CustomCell
+        
+        cell.mainImage = cellData[indexPath.row].image
+        cell.message = cellData[indexPath.row].message
+        
         return cell
     }
-    */
+    
+    
 
     /*
     // Override to support conditional editing of the table view.
