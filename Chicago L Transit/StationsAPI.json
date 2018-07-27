@@ -1,0 +1,1218 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "8pix-ypme",
+      "name" : "CTA - System Information - List of 'L' Stops",
+      "attribution" : "Chicago Transit Authority",
+      "attributionLink" : "http://www.transitchicago.com",
+      "averageRating" : 0,
+      "category" : "Transportation",
+      "createdAt" : 1312487600,
+      "description" : "This list of 'L' stops provides location and basic service availability information for each place on the CTA system where a train stops, along with formal station names and stop descriptions.",
+      "displayType" : "table",
+      "downloadCount" : 3724,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1526408799,
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 28823540,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1526408672,
+      "publicationGroup" : 239173,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1526408630,
+      "rowsUpdatedBy" : "6bsn-5494",
+      "tableId" : 15202894,
+      "totalTimesRated" : 0,
+      "viewCount" : 7638,
+      "viewLastModified" : 1526408672,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 359679198,
+        "name" : "STOP_ID",
+        "dataTypeName" : "number",
+        "fieldName" : "stop_id",
+        "position" : 1,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1504365,
+        "width" : 103,
+        "cachedContents" : {
+          "largest" : "30386",
+          "non_null" : 300,
+          "average" : "30156.94",
+          "null" : 0,
+          "top" : [ {
+            "item" : "30284",
+            "count" : 20
+          }, {
+            "item" : "30283",
+            "count" : 19
+          }, {
+            "item" : "30143",
+            "count" : 18
+          }, {
+            "item" : "30144",
+            "count" : 17
+          }, {
+            "item" : "30061",
+            "count" : 16
+          }, {
+            "item" : "30060",
+            "count" : 15
+          }, {
+            "item" : "30130",
+            "count" : 14
+          }, {
+            "item" : "30042",
+            "count" : 13
+          }, {
+            "item" : "30043",
+            "count" : 12
+          }, {
+            "item" : "30106",
+            "count" : 11
+          }, {
+            "item" : "30105",
+            "count" : 10
+          }, {
+            "item" : "30385",
+            "count" : 9
+          }, {
+            "item" : "30386",
+            "count" : 8
+          } ],
+          "smallest" : "30001",
+          "sum" : "9047082"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "true",
+          "align" : "right",
+          "aggregate" : "count"
+        }
+      }, {
+        "id" : 359679199,
+        "name" : "DIRECTION_ID",
+        "dataTypeName" : "text",
+        "description" : "Normal direction of train traffic at platform.",
+        "fieldName" : "direction_id",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 2617630,
+        "width" : 100,
+        "cachedContents" : {
+          "largest" : "W",
+          "non_null" : 300,
+          "null" : 0,
+          "top" : [ {
+            "item" : "E",
+            "count" : 20
+          }, {
+            "item" : "W",
+            "count" : 19
+          }, {
+            "item" : "N",
+            "count" : 18
+          }, {
+            "item" : "S",
+            "count" : 17
+          } ],
+          "smallest" : "E"
+        },
+        "format" : { }
+      }, {
+        "id" : 359679200,
+        "name" : "STOP_NAME",
+        "dataTypeName" : "text",
+        "fieldName" : "stop_name",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1504367,
+        "width" : 208,
+        "cachedContents" : {
+          "largest" : "Wilson (Loop-bound)",
+          "non_null" : 300,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Western (Loop-bound)",
+            "count" : 20
+          }, {
+            "item" : "Western (Kimball-bound)",
+            "count" : 19
+          }, {
+            "item" : "Western (54th/Cermak-bound)",
+            "count" : 18
+          }, {
+            "item" : "Western (Midway-bound)",
+            "count" : 17
+          }, {
+            "item" : "Western (O'Hare Branch) (Forest Pk-bound)",
+            "count" : 16
+          }, {
+            "item" : "Western (Forest Pk Branch) (O'Hare-bound)",
+            "count" : 15
+          }, {
+            "item" : "Western (Forest Pk Branch) (Forest Pk-bound)",
+            "count" : 14
+          }, {
+            "item" : "Wilson (95th-bound)",
+            "count" : 13
+          }, {
+            "item" : "Wilson (Howard-bound)",
+            "count" : 12
+          }, {
+            "item" : "Wilson (Loop-bound)",
+            "count" : 11
+          }, {
+            "item" : "Wilson (Linden-bound)",
+            "count" : 10
+          } ],
+          "smallest" : "18th (54th/Cermak-bound)"
+        },
+        "format" : { }
+      }, {
+        "id" : 359679201,
+        "name" : "STATION_NAME",
+        "dataTypeName" : "text",
+        "fieldName" : "station_name",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1504368,
+        "width" : 201,
+        "cachedContents" : {
+          "largest" : "Wilson",
+          "non_null" : 300,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Kedzie",
+            "count" : 20
+          }, {
+            "item" : "Monroe",
+            "count" : 19
+          }, {
+            "item" : "Montrose",
+            "count" : 18
+          }, {
+            "item" : "Oak Park",
+            "count" : 17
+          }, {
+            "item" : "Pulaski",
+            "count" : 16
+          }, {
+            "item" : "Roosevelt",
+            "count" : 15
+          }, {
+            "item" : "Sheridan",
+            "count" : 14
+          }, {
+            "item" : "South Boulevard",
+            "count" : 13
+          }, {
+            "item" : "Southport",
+            "count" : 12
+          }, {
+            "item" : "Sox-35th",
+            "count" : 11
+          }, {
+            "item" : "State/Lake",
+            "count" : 10
+          }, {
+            "item" : "Thorndale",
+            "count" : 9
+          }, {
+            "item" : "UIC-Halsted",
+            "count" : 8
+          }, {
+            "item" : "Washington",
+            "count" : 7
+          }, {
+            "item" : "Washington/Wabash",
+            "count" : 6
+          }, {
+            "item" : "Washington/Wells",
+            "count" : 5
+          }, {
+            "item" : "Wellington",
+            "count" : 4
+          }, {
+            "item" : "Western",
+            "count" : 3
+          }, {
+            "item" : "Wilson",
+            "count" : 2
+          } ],
+          "smallest" : "18th"
+        },
+        "format" : { }
+      }, {
+        "id" : 359679202,
+        "name" : "STATION_DESCRIPTIVE_NAME",
+        "dataTypeName" : "text",
+        "description" : "A more fully descriptive name of a station.",
+        "fieldName" : "station_descriptive_name",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 2898204,
+        "width" : 405,
+        "cachedContents" : {
+          "largest" : "Wilson (Red & Purple Lines)",
+          "non_null" : 300,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Pulaski (Blue Line)",
+            "count" : 20
+          }, {
+            "item" : "Pulaski (Green Line)",
+            "count" : 19
+          }, {
+            "item" : "Quincy/Wells (Brown, Orange, Purple & Pink Lines)",
+            "count" : 18
+          }, {
+            "item" : "Racine (Blue Line)",
+            "count" : 17
+          }, {
+            "item" : "Ridgeland (Green Line)",
+            "count" : 16
+          }, {
+            "item" : "Rockwell (Brown Line)",
+            "count" : 15
+          }, {
+            "item" : "Roosevelt (Red, Orange & Green Lines)",
+            "count" : 14
+          }, {
+            "item" : "Rosemont (Blue Line)",
+            "count" : 13
+          }, {
+            "item" : "Sedgwick (Brown & Purple Lines)",
+            "count" : 12
+          }, {
+            "item" : "Sheridan (Red Line)",
+            "count" : 11
+          }, {
+            "item" : "South Boulevard (Purple Line)",
+            "count" : 10
+          }, {
+            "item" : "Southport (Brown Line)",
+            "count" : 9
+          }, {
+            "item" : "Sox-35th (Red Line)",
+            "count" : 8
+          }, {
+            "item" : "State/Lake (Brown, Green, Orange, Pink & Purple Lines)",
+            "count" : 7
+          }, {
+            "item" : "Thorndale (Red Line)",
+            "count" : 6
+          }, {
+            "item" : "UIC-Halsted (Blue Line)",
+            "count" : 5
+          }, {
+            "item" : "Washington (Blue Line)",
+            "count" : 4
+          }, {
+            "item" : "Washington/Wabash (Brown, Green, Orange, Purple & Pink Lines)",
+            "count" : 3
+          }, {
+            "item" : "Washington/Wells (Brown, Orange, Purple & Pink Lines)",
+            "count" : 2
+          }, {
+            "item" : "Wellington (Brown & Purple Lines)",
+            "count" : 1
+          } ],
+          "smallest" : "18th (Pink Line)"
+        },
+        "format" : { }
+      }, {
+        "id" : 359679203,
+        "name" : "MAP_ID",
+        "dataTypeName" : "number",
+        "fieldName" : "map_id",
+        "position" : 6,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1504369,
+        "width" : 103,
+        "cachedContents" : {
+          "largest" : "41700",
+          "non_null" : 300,
+          "average" : "40788.46666666667",
+          "null" : 0,
+          "top" : [ {
+            "item" : "40040",
+            "count" : 20
+          }, {
+            "item" : "40470",
+            "count" : 19
+          }, {
+            "item" : "40610",
+            "count" : 18
+          }, {
+            "item" : "41010",
+            "count" : 17
+          }, {
+            "item" : "41400",
+            "count" : 16
+          }, {
+            "item" : "40820",
+            "count" : 15
+          }, {
+            "item" : "40800",
+            "count" : 14
+          }, {
+            "item" : "40080",
+            "count" : 13
+          }, {
+            "item" : "40840",
+            "count" : 12
+          }, {
+            "item" : "40360",
+            "count" : 11
+          }, {
+            "item" : "40190",
+            "count" : 10
+          }, {
+            "item" : "40260",
+            "count" : 9
+          }, {
+            "item" : "40880",
+            "count" : 8
+          }, {
+            "item" : "40350",
+            "count" : 7
+          }, {
+            "item" : "40370",
+            "count" : 6
+          }, {
+            "item" : "41700",
+            "count" : 5
+          }, {
+            "item" : "40730",
+            "count" : 4
+          }, {
+            "item" : "41210",
+            "count" : 3
+          }, {
+            "item" : "40670",
+            "count" : 2
+          }, {
+            "item" : "41480",
+            "count" : 1
+          } ],
+          "smallest" : "40010",
+          "sum" : "12236540"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "true",
+          "align" : "right"
+        }
+      }, {
+        "id" : 359679204,
+        "name" : "ADA",
+        "dataTypeName" : "checkbox",
+        "fieldName" : "ada",
+        "position" : 7,
+        "renderTypeName" : "checkbox",
+        "tableColumnId" : 1504370,
+        "width" : 136,
+        "cachedContents" : {
+          "largest" : true,
+          "non_null" : 300,
+          "null" : 0,
+          "top" : [ {
+            "item" : true,
+            "count" : 20
+          }, {
+            "item" : false,
+            "count" : 19
+          } ],
+          "smallest" : false
+        },
+        "format" : { }
+      }, {
+        "id" : 359679205,
+        "name" : "RED",
+        "dataTypeName" : "checkbox",
+        "fieldName" : "red",
+        "position" : 8,
+        "renderTypeName" : "checkbox",
+        "tableColumnId" : 1504371,
+        "width" : 136,
+        "cachedContents" : {
+          "largest" : true,
+          "non_null" : 300,
+          "null" : 0,
+          "top" : [ {
+            "item" : false,
+            "count" : 20
+          }, {
+            "item" : true,
+            "count" : 19
+          } ],
+          "smallest" : false
+        },
+        "format" : { }
+      }, {
+        "id" : 359679206,
+        "name" : "BLUE",
+        "dataTypeName" : "checkbox",
+        "fieldName" : "blue",
+        "position" : 9,
+        "renderTypeName" : "checkbox",
+        "tableColumnId" : 1504372,
+        "width" : 148,
+        "cachedContents" : {
+          "largest" : true,
+          "non_null" : 300,
+          "null" : 0,
+          "top" : [ {
+            "item" : false,
+            "count" : 20
+          }, {
+            "item" : true,
+            "count" : 19
+          } ],
+          "smallest" : false
+        },
+        "format" : { }
+      }, {
+        "id" : 359679207,
+        "name" : "G",
+        "dataTypeName" : "checkbox",
+        "fieldName" : "g",
+        "position" : 10,
+        "renderTypeName" : "checkbox",
+        "tableColumnId" : 1504373,
+        "width" : 112,
+        "cachedContents" : {
+          "largest" : true,
+          "non_null" : 300,
+          "null" : 0,
+          "top" : [ {
+            "item" : false,
+            "count" : 20
+          }, {
+            "item" : true,
+            "count" : 19
+          } ],
+          "smallest" : false
+        },
+        "format" : { }
+      }, {
+        "id" : 359679208,
+        "name" : "BRN",
+        "dataTypeName" : "checkbox",
+        "fieldName" : "brn",
+        "position" : 11,
+        "renderTypeName" : "checkbox",
+        "tableColumnId" : 1504374,
+        "width" : 136,
+        "cachedContents" : {
+          "largest" : true,
+          "non_null" : 300,
+          "null" : 0,
+          "top" : [ {
+            "item" : false,
+            "count" : 20
+          }, {
+            "item" : true,
+            "count" : 19
+          } ],
+          "smallest" : false
+        },
+        "format" : { }
+      }, {
+        "id" : 359679209,
+        "name" : "P",
+        "dataTypeName" : "checkbox",
+        "fieldName" : "p",
+        "position" : 12,
+        "renderTypeName" : "checkbox",
+        "tableColumnId" : 1504375,
+        "width" : 112,
+        "cachedContents" : {
+          "largest" : true,
+          "non_null" : 300,
+          "null" : 0,
+          "top" : [ {
+            "item" : false,
+            "count" : 20
+          }, {
+            "item" : true,
+            "count" : 19
+          } ],
+          "smallest" : false
+        },
+        "format" : { }
+      }, {
+        "id" : 359679210,
+        "name" : "Pexp",
+        "dataTypeName" : "checkbox",
+        "fieldName" : "pexp",
+        "position" : 13,
+        "renderTypeName" : "checkbox",
+        "tableColumnId" : 1504376,
+        "width" : 148,
+        "cachedContents" : {
+          "largest" : true,
+          "non_null" : 300,
+          "null" : 0,
+          "top" : [ {
+            "item" : false,
+            "count" : 20
+          }, {
+            "item" : true,
+            "count" : 19
+          } ],
+          "smallest" : false
+        },
+        "format" : { }
+      }, {
+        "id" : 359679211,
+        "name" : "Y",
+        "dataTypeName" : "checkbox",
+        "fieldName" : "y",
+        "position" : 14,
+        "renderTypeName" : "checkbox",
+        "tableColumnId" : 1504377,
+        "width" : 112,
+        "cachedContents" : {
+          "largest" : true,
+          "non_null" : 300,
+          "null" : 0,
+          "top" : [ {
+            "item" : false,
+            "count" : 20
+          }, {
+            "item" : true,
+            "count" : 19
+          } ],
+          "smallest" : false
+        },
+        "format" : { }
+      }, {
+        "id" : 359679213,
+        "name" : "Pnk",
+        "dataTypeName" : "checkbox",
+        "fieldName" : "pnk",
+        "position" : 15,
+        "renderTypeName" : "checkbox",
+        "tableColumnId" : 1504378,
+        "width" : 136,
+        "cachedContents" : {
+          "largest" : true,
+          "non_null" : 300,
+          "null" : 0,
+          "top" : [ {
+            "item" : true,
+            "count" : 20
+          }, {
+            "item" : false,
+            "count" : 19
+          } ],
+          "smallest" : false
+        },
+        "format" : { }
+      }, {
+        "id" : 359679214,
+        "name" : "O",
+        "dataTypeName" : "checkbox",
+        "fieldName" : "o",
+        "position" : 16,
+        "renderTypeName" : "checkbox",
+        "tableColumnId" : 1504379,
+        "width" : 112,
+        "cachedContents" : {
+          "largest" : true,
+          "non_null" : 300,
+          "null" : 0,
+          "top" : [ {
+            "item" : false,
+            "count" : 20
+          }, {
+            "item" : true,
+            "count" : 19
+          } ],
+          "smallest" : false
+        },
+        "format" : { }
+      }, {
+        "id" : 359679215,
+        "name" : "Location",
+        "dataTypeName" : "location",
+        "fieldName" : "location",
+        "position" : 17,
+        "renderTypeName" : "location",
+        "tableColumnId" : 1504380,
+        "width" : 196,
+        "cachedContents" : {
+          "largest" : {
+            "latitude" : "41.964273",
+            "longitude" : "-87.657588"
+          },
+          "non_null" : 300,
+          "null" : 0,
+          "top" : [ {
+            "item" : {
+              "latitude" : "41.878723",
+              "longitude" : "-87.63374"
+            },
+            "count" : 20
+          }, {
+            "item" : {
+              "latitude" : "41.87592",
+              "longitude" : "-87.659458"
+            },
+            "count" : 19
+          }, {
+            "item" : {
+              "latitude" : "41.887159",
+              "longitude" : "-87.783661"
+            },
+            "count" : 18
+          }, {
+            "item" : {
+              "latitude" : "41.966115",
+              "longitude" : "-87.6941"
+            },
+            "count" : 17
+          }, {
+            "item" : {
+              "latitude" : "41.867405",
+              "longitude" : "-87.62659"
+            },
+            "count" : 16
+          }, {
+            "item" : {
+              "latitude" : "41.867368",
+              "longitude" : "-87.627402"
+            },
+            "count" : 15
+          }, {
+            "item" : {
+              "latitude" : "41.983507",
+              "longitude" : "-87.859388"
+            },
+            "count" : 14
+          }, {
+            "item" : {
+              "latitude" : "41.910409",
+              "longitude" : "-87.639302"
+            },
+            "count" : 13
+          }, {
+            "item" : {
+              "latitude" : "41.953775",
+              "longitude" : "-87.654929"
+            },
+            "count" : 12
+          }, {
+            "item" : {
+              "latitude" : "42.027612",
+              "longitude" : "-87.678329"
+            },
+            "count" : 11
+          }, {
+            "item" : {
+              "latitude" : "41.943744",
+              "longitude" : "-87.663619"
+            },
+            "count" : 10
+          }, {
+            "item" : {
+              "latitude" : "41.831191",
+              "longitude" : "-87.630636"
+            },
+            "count" : 9
+          }, {
+            "item" : {
+              "latitude" : "41.88574",
+              "longitude" : "-87.627835"
+            },
+            "count" : 8
+          }, {
+            "item" : {
+              "latitude" : "41.990259",
+              "longitude" : "-87.659076"
+            },
+            "count" : 7
+          }, {
+            "item" : {
+              "latitude" : "41.875474",
+              "longitude" : "-87.649707"
+            },
+            "count" : 6
+          }, {
+            "item" : {
+              "latitude" : "41.883164",
+              "longitude" : "-87.62944"
+            },
+            "count" : 5
+          }, {
+            "item" : {
+              "latitude" : "41.88322",
+              "longitude" : "-87.626189"
+            },
+            "count" : 4
+          }, {
+            "item" : {
+              "latitude" : "41.882695",
+              "longitude" : "-87.63378"
+            },
+            "count" : 3
+          }, {
+            "item" : {
+              "latitude" : "41.936033",
+              "longitude" : "-87.653266"
+            },
+            "count" : 2
+          }, {
+            "item" : {
+              "latitude" : "41.916157",
+              "longitude" : "-87.687364"
+            },
+            "count" : 1
+          } ],
+          "smallest" : {
+            "latitude" : "41.857908",
+            "longitude" : "-87.669147"
+          }
+        },
+        "format" : { },
+        "subColumnTypes" : [ "human_address", "latitude", "longitude", "machine_address", "needs_recoding" ]
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "jsonQuery" : {
+          "order" : [ {
+            "ascending" : true,
+            "columnFieldName" : "station_name"
+          } ]
+        },
+        "rdfSubject" : "0",
+        "custom_fields" : {
+          "Metadata" : {
+            "Last Updated Date via Automated Load" : "",
+            "Time Period" : "",
+            "Frequency" : "",
+            "Data Owner" : "Chicago Transit Authority "
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        }
+      },
+      "owner" : {
+        "id" : "6bsn-5494",
+        "displayName" : "cta web",
+        "profileImageUrlLarge" : "/api/users/6bsn-5494/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/6bsn-5494/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/6bsn-5494/profile_images/TINY",
+        "screenName" : "cta web",
+        "type" : "interactive"
+      },
+      "query" : {
+        "orderBys" : [ {
+          "ascending" : true,
+          "expression" : {
+            "columnId" : 359679201,
+            "type" : "column"
+          }
+        } ]
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "6bsn-5494",
+        "displayName" : "cta web",
+        "profileImageUrlLarge" : "/api/users/6bsn-5494/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/6bsn-5494/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/6bsn-5494/profile_images/TINY",
+        "screenName" : "cta web",
+        "type" : "interactive"
+      },
+      "tags" : [ "cta", "public transit", "rail", "stations", "sustainability" ],
+      "flags" : [ "default", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ 1, "35A6C0EA-CE03-47C5-987C-825C37C76DF3", 1, 1514938516, "395245", 1514938516, "395245", null, "30161", "E", "18th (Loop-bound)", "18th", "18th (Pink Line)", "40830", true, false, false, false, false, false, false, false, true, false, [ null, "41.857908", "-87.669147", null, false ] ]
+, [ 2, "BC49ED7D-D418-4432-BFB2-7A3DD78A5AAF", 2, 1514938516, "395245", 1514938516, "395245", null, "30162", "W", "18th (54th/Cermak-bound)", "18th", "18th (Pink Line)", "40830", true, false, false, false, false, false, false, false, true, false, [ null, "41.857908", "-87.669147", null, false ] ]
+, [ 3, "F5415CA3-49A6-4334-86A5-C9D1BDC5F74E", 3, 1514938516, "395245", 1514938516, "395245", null, "30022", "N", "35th/Archer (Loop-bound)", "35th/Archer", "35th/Archer (Orange Line)", "40120", true, false, false, false, false, false, false, false, false, true, [ null, "41.829353", "-87.680622", null, false ] ]
+, [ 4, "DA081A04-2B75-43E9-9E7C-6D09B4D337A8", 4, 1514938516, "395245", 1514938516, "395245", null, "30023", "S", "35th/Archer (Midway-bound)", "35th/Archer", "35th/Archer (Orange Line)", "40120", true, false, false, false, false, false, false, false, false, true, [ null, "41.829353", "-87.680622", null, false ] ]
+, [ 5, "B1100C8C-E78B-4856-8A3E-26036C18DBEA", 5, 1514938516, "395245", 1514938516, "395245", null, "30213", "N", "35-Bronzeville-IIT (Harlem-bound)", "35th-Bronzeville-IIT", "35th-Bronzeville-IIT (Green Line)", "41120", true, false, false, true, false, false, false, false, false, false, [ null, "41.831677", "-87.625826", null, false ] ]
+, [ 6, "23FF64DD-5719-4A6B-9F20-B28E4504ACC1", 6, 1514938516, "395245", 1514938516, "395245", null, "30214", "S", "35-Bronzeville-IIT (63rd-bound)", "35th-Bronzeville-IIT", "35th-Bronzeville-IIT (Green Line)", "41120", true, false, false, true, false, false, false, false, false, false, [ null, "41.831677", "-87.625826", null, false ] ]
+, [ 7, "902119DC-E3F0-4376-BB09-4BD6983C80C6", 7, 1514938516, "395245", 1514938516, "395245", null, "30245", "N", "43rd (Harlem-bound)", "43rd", "43rd (Green Line)", "41270", true, false, false, true, false, false, false, false, false, false, [ null, "41.816462", "-87.619021", null, false ] ]
+, [ 8, "82AE65B9-15F7-44B6-B3B9-94E40DEEE8CE", 8, 1514938516, "395245", 1514938516, "395245", null, "30246", "S", "43rd (63rd-bound)", "43rd", "43rd (Green Line)", "41270", true, false, false, true, false, false, false, false, false, false, [ null, "41.816462", "-87.619021", null, false ] ]
+, [ 9, "567982E4-BF6A-4D80-815A-B93D28A5D537", 9, 1514938516, "395245", 1514938516, "395245", null, "30210", "S", "47th (63rd-bound)", "47th", "47th (Green Line)", "41080", true, false, false, true, false, false, false, false, false, false, [ null, "41.809209", "-87.618826", null, false ] ]
+, [ 10, "55B023A2-76C7-4A6D-9E34-BECDE2B3E2AE", 10, 1514938516, "395245", 1514938516, "395245", null, "30237", "N", "47th (Howard-bound)", "47th", "47th (Red Line)", "41230", true, true, false, false, false, false, false, false, false, false, [ null, "41.810318", "-87.63094", null, false ] ]
+, [ 11, "AE3CC6B9-83D5-42A2-82BE-BAF2DFED2A54", 11, 1514938516, "395245", 1514938516, "395245", null, "30209", "N", "47th (Harlem-bound)", "47th", "47th (Green Line)", "41080", true, false, false, true, false, false, false, false, false, false, [ null, "41.809209", "-87.618826", null, false ] ]
+, [ 12, "12181620-C462-4AF8-99FF-8361058A3889", 12, 1514938516, "395245", 1514938516, "395245", null, "30238", "S", "47th (95th-bound)", "47th", "47th (Red Line)", "41230", true, true, false, false, false, false, false, false, false, false, [ null, "41.810318", "-87.63094", null, false ] ]
+, [ 13, "8D4A8181-A90D-4F34-9B5C-0274EB172136", 13, 1514938516, "395245", 1514938516, "395245", null, "30024", "N", "51st (Harlem-bound)", "51st", "51st (Green Line)", "40130", true, false, false, true, false, false, false, false, false, false, [ null, "41.80209", "-87.618487", null, false ] ]
+, [ 14, "CE6DF0DC-7FC7-4166-BEF5-3ED7ABDFF697", 14, 1514938516, "395245", 1514938516, "395245", null, "30025", "S", "51st (63rd-bound)", "51st", "51st (Green Line)", "40130", true, false, false, true, false, false, false, false, false, false, [ null, "41.80209", "-87.618487", null, false ] ]
+, [ 15, "D7C25E0F-61B7-46BC-A854-86D8A6E433D2", 15, 1514938516, "395245", 1514938516, "395245", null, "30113", "E", "54th/Cermak (Loop-bound)", "54th/Cermak", "54th/Cermak (Pink Line)", "40580", true, false, false, false, false, false, false, false, true, false, [ null, "41.85177331", "-87.75669201", null, false ] ]
+, [ 16, "010559CA-F810-4269-BC85-8EA169FFFE48", 16, 1514938516, "395245", 1514938516, "395245", null, "30114", "W", "54th/Cermak (Terminal arrival)", "54th/Cermak", "54th/Cermak (Pink Line)", "40580", true, false, false, false, false, false, false, false, true, false, [ null, "41.85177331", "-87.75669201", null, false ] ]
+, [ 17, "AC6B952C-30CA-4C8D-94EE-83D126322430", 17, 1514938516, "395245", 1514938516, "395245", null, "30177", "N", "63rd (Howard-bound)", "63rd", "63rd (Red Line)", "40910", true, true, false, false, false, false, false, false, false, false, [ null, "41.780536", "-87.630952", null, false ] ]
+, [ 18, "0BE80CB5-B865-463A-BCCB-535F7FA09B6C", 18, 1514938516, "395245", 1514938516, "395245", null, "30178", "S", "63rd (95th-bound)", "63rd", "63rd (Red Line)", "40910", true, true, false, false, false, false, false, false, false, false, [ null, "41.780536", "-87.630952", null, false ] ]
+, [ 19, "5F929070-F5E6-47E2-BFEA-B202F826F4CC", 19, 1514938516, "395245", 1514938516, "395245", null, "30191", "N", "69th (Howard-bound)", "69th", "69th (Red Line)", "40990", true, true, false, false, false, false, false, false, false, false, [ null, "41.768367", "-87.625724", null, false ] ]
+, [ 20, "386EDBAD-DAE7-42EC-A7DF-30ADB5EA6A0D", 20, 1514938516, "395245", 1514938516, "395245", null, "30192", "S", "69th (95th-bound)", "69th", "69th (Red Line)", "40990", true, true, false, false, false, false, false, false, false, false, [ null, "41.768367", "-87.625724", null, false ] ]
+, [ 21, "2C7D867F-F6AB-4F8B-8C7D-2D3D5B37B5A1", 21, 1514938516, "395245", 1514938516, "395245", null, "30046", "N", "79th (Howard-bound)", "79th", "79th (Red Line)", "40240", true, true, false, false, false, false, false, false, false, false, [ null, "41.750419", "-87.625112", null, false ] ]
+, [ 22, "C2177BCE-EBA8-45AD-9DE3-C62DC31C3822", 22, 1514938516, "395245", 1514938516, "395245", null, "30047", "S", "79th (95th-bound)", "79th", "79th (Red Line)", "40240", true, true, false, false, false, false, false, false, false, false, [ null, "41.750419", "-87.625112", null, false ] ]
+, [ 23, "267EB333-2809-46E6-AF4D-BD0CFAEBDFDE", 23, 1514938516, "395245", 1514938516, "395245", null, "30275", "N", "87th (Howard-bound)", "87th", "87th (Red Line)", "41430", true, true, false, false, false, false, false, false, false, false, [ null, "41.735372", "-87.624717", null, false ] ]
+, [ 24, "51B62BA9-B247-4A64-AFC0-69CF27483349", 24, 1514938516, "395245", 1514938516, "395245", null, "30276", "S", "87th (95th-bound)", "87th", "87th (Red Line)", "41430", true, true, false, false, false, false, false, false, false, false, [ null, "41.735372", "-87.624717", null, false ] ]
+, [ 25, "BE4C8779-12FB-4B12-A50E-3C93F38A88C9", 25, 1514938516, "395245", 1514938516, "395245", null, "30089", "S", "95th/Dan Ryan (95th-bound)", "95th/Dan Ryan", "95th/Dan Ryan (Red Line)", "40450", true, true, false, false, false, false, false, false, false, false, [ null, "41.722377", "-87.624342", null, false ] ]
+, [ 26, "68621877-6214-4C94-9E94-990D387DAA43", 26, 1514938516, "395245", 1514938516, "395245", null, "30088", "N", "95th/Dan Ryan (Howard-bound)", "95th/Ran Ryan", "95th/Ran Ryan (Red Line)", "40450", true, true, false, false, false, false, false, false, false, false, [ null, "41.722377", "-87.624342", null, false ] ]
+, [ 27, "E35D75EC-E849-491E-AD7C-8277E84EE17B", 27, 1514938516, "395245", 1514938516, "395245", null, "30132", "S", "Adams/Wabash (Inner Loop)", "Adams/Wabash", "Adams/Wabash (Brown, Green, Orange, Pink & Purple Lines)", "40680", false, false, false, true, false, false, true, false, true, true, [ null, "41.879507", "-87.626037", null, false ] ]
+, [ 28, "F740620E-2512-4069-899D-B7F4FC3A1342", 28, 1514938516, "395245", 1514938516, "395245", null, "30131", "N", "Adams/Wabash (Outer Loop)", "Adams/Wabash", "Adams/Wabash (Brown, Green, Orange, Pink & Purple Lines)", "40680", false, false, false, true, true, false, false, false, false, false, [ null, "41.879507", "-87.626037", null, false ] ]
+, [ 29, "9EFF60D2-3082-4E7A-AB9F-CFF3C0B28DA1", 29, 1514938516, "395245", 1514938516, "395245", null, "30240", "S", "Addison (Forest Pk-bound)", "Addison", "Addison (Blue Line)", "41240", true, false, true, false, false, false, false, false, false, false, [ null, "41.94738", "-87.71906", null, false ] ]
+, [ 30, "8B116B5F-848D-40D4-BD36-3D6C0C70E7B2", 30, 1514938516, "395245", 1514938516, "395245", null, "30277", "N", "Addison (Kimball-bound)", "Addison", "Addison (Brown Line)", "41440", true, false, false, false, true, false, false, false, false, false, [ null, "41.947028", "-87.674642", null, false ] ]
+, [ 31, "D4C88B31-72B5-4B5A-AAA1-EC3E2CEA7793", 31, 1514938516, "395245", 1514938516, "395245", null, "30274", "S", "Addison (95th-bound)", "Addison", "Addison (Red Line)", "41420", true, true, false, false, false, false, false, false, false, false, [ null, "41.947428", "-87.653626", null, false ] ]
+, [ 32, "79BF5D05-28EB-43A2-8E3F-B9DA0CD93DCC", 32, 1514938516, "395245", 1514938516, "395245", null, "30278", "S", "Addison (Loop-bound)", "Addison", "Addison (Brown Line)", "41440", true, false, false, false, true, false, false, false, false, false, [ null, "41.947028", "-87.674642", null, false ] ]
+, [ 33, "A7CCF732-448D-41BB-AE8B-B6F03F4B6C22", 33, 1514938516, "395245", 1514938516, "395245", null, "30273", "N", "Addison (Howard-bound)", "Addison", "Addison (Red Line)", "41420", true, true, false, false, false, false, false, false, false, false, [ null, "41.947428", "-87.653626", null, false ] ]
+, [ 34, "83D1E8A6-3E1C-4C22-A239-1F8EFD282B10", 34, 1514938516, "395245", 1514938516, "395245", null, "30239", "N", "Addison (O'Hare-bound)", "Addison", "Addison (Blue Line)", "41240", true, false, true, false, false, false, false, false, false, false, [ null, "41.94738", "-87.71906", null, false ] ]
+, [ 35, "7B0E8F4F-9384-421B-9D6D-F0B66D458E53", 35, 1514938516, "395245", 1514938516, "395245", null, "30229", "N", "Argyle (Howard-bound)", "Argyle", "Argyle (Red Line)", "41200", false, true, false, false, false, false, false, false, false, false, [ null, "41.973453", "-87.65853", null, false ] ]
+, [ 36, "AD851B29-ECCA-4D8A-80FC-6C52C9594BA1", 36, 1514938516, "395245", 1514938516, "395245", null, "30230", "S", "Argyle (95th-bound)", "Argyle", "Argyle (Red Line)", "41200", false, true, false, false, false, false, false, false, false, false, [ null, "41.973453", "-87.65853", null, false ] ]
+, [ 37, "85642F7A-81FA-4C27-A22D-B6A75AB341B4", 37, 1514938516, "395245", 1514938516, "395245", null, "30128", "S", "Armitage (Loop-bound)", "Armitage", "Armitage (Brown & Purple Lines)", "40660", true, false, false, false, true, false, true, false, false, false, [ null, "41.918217", "-87.652644", null, false ] ]
+, [ 38, "7DD11E7F-DB48-4206-AF36-E9845D097194", 38, 1514938516, "395245", 1514938516, "395245", null, "30127", "N", "Armitage (Kimball-Linden-bound)", "Armitage", "Armitage (Brown & Purple Lines)", "40660", true, false, false, false, true, false, true, false, false, false, [ null, "41.918217", "-87.652644", null, false ] ]
+, [ 39, "F13A46A3-8C39-4D53-9DDA-6DB64D8CF1B8", 39, 1514938516, "395245", 1514938516, "395245", null, "30205", "N", "Ashland (Loop-bound)", "Ashland", "Ashland (Orange Line)", "41060", true, false, false, false, false, false, false, false, false, true, [ null, "41.839234", "-87.665317", null, false ] ]
+, [ 42, "D55EF679-0875-49D8-BB8A-1C9E30026DD2", 42, 1514938516, "395245", 1514938516, "395245", null, "30206", "S", "Ashland (Midway-bound)", "Ashland", "Ashland (Orange Line)", "41060", true, false, false, false, false, false, false, false, false, true, [ null, "41.839234", "-87.665317", null, false ] ]
+, [ 43, "BF89D57B-4FBE-4E1F-96B1-0C6D55BBE72B", 43, 1514938516, "395245", 1514938516, "395245", null, "30057", "W", "Ashland/63rd (Terminal arrival)", "Ashland/63rd", "Ashland/63rd (Green Line)", "40290", true, false, false, true, false, false, false, false, false, false, [ null, "41.77886", "-87.663766", null, false ] ]
+, [ 44, "C60F0ECD-F5B4-4F87-BF22-95355863B6D3", 44, 1514938516, "395245", 1514938516, "395245", null, "30056", "E", "Ashland/63rd (Harlem-bound)", "Ashland/63rd", "Ashland/63rd (Green Line)", "40290", true, false, false, true, false, false, false, false, false, false, [ null, "41.77886", "-87.663766", null, false ] ]
+, [ 45, "183FBA38-0613-49FA-B102-49AF033B7169", 45, 1514938516, "395245", 1514938516, "395245", null, "30001", "E", "Austin (O'Hare-bound)", "Austin", "Austin (Blue Line)", "40010", false, false, true, false, false, false, false, false, false, false, [ null, "41.870851", "-87.776812", null, false ] ]
+, [ 46, "6F747AF5-2478-48FC-B6A3-5C4D2E854BED", 46, 1514938516, "395245", 1514938516, "395245", null, "30002", "W", "Austin (Forest Pk-bound)", "Austin", "Austin (Blue Line)", "40010", false, false, true, false, false, false, false, false, false, false, [ null, "41.870851", "-87.776812", null, false ] ]
+, [ 47, "7CAF2AC2-01F7-4D05-A8B4-263138725BD0", 47, 1514938516, "395245", 1514938516, "395245", null, "30243", "E", "Austin (63rd-bound)", "Austin", "Austin (Green Line)", "41260", false, false, false, true, false, false, false, false, false, false, [ null, "41.887293", "-87.774135", null, false ] ]
+, [ 48, "9B376DEC-82A3-4E68-B9DC-C2A76CABAAF5", 48, 1514938516, "395245", 1514938516, "395245", null, "30244", "W", "Austin (Harlem-bound)", "Austin", "Austin (Green Line)", "41260", false, false, false, true, false, false, false, false, false, false, [ null, "41.887293", "-87.774135", null, false ] ]
+, [ 49, "7548CEF2-8128-42A3-AA92-B6899607B78B", 49, 1514938516, "395245", 1514938516, "395245", null, "30258", "S", "Belmont (Loop-bound)", "Belmont", "Belmont (Red, Brown & Purple Lines)", "41320", true, false, false, false, true, false, true, false, false, false, [ null, "41.939751", "-87.65338", null, false ] ]
+, [ 50, "E63D3700-639B-442C-8259-F27589AF8022", 50, 1514938516, "395245", 1514938516, "395245", null, "30013", "S", "Belmont (O'Hare Branch) (Forest Pk-bound)", "Belmont", "Belmont (Blue Line)", "40060", false, false, true, false, false, false, false, false, false, false, [ null, "41.938132", "-87.712359", null, false ] ]
+, [ 51, "5F7D30F2-7DD2-48F7-930D-6AA5170316DD", 51, 1514938516, "395245", 1514938516, "395245", null, "30012", "N", "Belmont (O'Hare Branch) (O'Hare-bound)", "Belmont", "Belmont (Blue Line)", "40060", false, false, true, false, false, false, false, false, false, false, [ null, "41.938132", "-87.712359", null, false ] ]
+, [ 52, "C94FEA7C-796A-41D1-A26D-87E9EE7D7D41", 52, 1514938516, "395245", 1514938516, "395245", null, "30256", "S", "Belmont (95th-bound)", "Belmont", "Belmont (Red, Brown & Purple Lines)", "41320", true, true, false, false, false, false, false, false, false, false, [ null, "41.939751", "-87.65338", null, false ] ]
+, [ 53, "1E4551CF-6B80-457B-B299-D31C795DD56C", 53, 1514938516, "395245", 1514938516, "395245", null, "30255", "N", "Belmont (Howard-bound)", "Belmont", "Belmont (Red, Brown & Purple Lines)", "41320", true, true, false, false, false, false, false, false, false, false, [ null, "41.939751", "-87.65338", null, false ] ]
+, [ 54, "F5CEE3B5-4B61-42B7-9CDD-DAE7777FE0FD", 54, 1514938516, "395245", 1514938516, "395245", null, "30257", "N", "Belmont (Kimball-Linden-bound)", "Belmont", "Belmont (Red, Brown & Purple Lines)", "41320", true, false, false, false, true, false, true, false, false, false, [ null, "41.939751", "-87.65338", null, false ] ]
+, [ 55, "3A1DB9F6-7594-4FCF-A07A-FC9D0AF9781E", 55, 1514938516, "395245", 1514938516, "395245", null, "30067", "S", "Berwyn (95th-bound)", "Berwyn", "Berwyn (Red Line)", "40340", false, true, false, false, false, false, false, false, false, false, [ null, "41.977984", "-87.658668", null, false ] ]
+, [ 56, "92065597-B7E6-4DD5-A06F-CCD5BAB31666", 56, 1514938516, "395245", 1514938516, "395245", null, "30066", "N", "Berwyn (Howard-bound)", "Berwyn", "Berwyn (Red Line)", "40340", false, true, false, false, false, false, false, false, false, false, [ null, "41.977984", "-87.658668", null, false ] ]
+, [ 57, "D02BA914-F70D-4599-A36A-B1D2C6266952", 57, 1514938516, "395245", 1514938516, "395245", null, "30267", "N", "Bryn Mawr (Howard-bound)", "Bryn Mawr", "Bryn Mawr (Red Line)", "41380", false, true, false, false, false, false, false, false, false, false, [ null, "41.983504", "-87.65884", null, false ] ]
+, [ 58, "D8D5D9BB-D81C-4646-B60F-CC8FD37FE02F", 58, 1514938516, "395245", 1514938516, "395245", null, "30268", "S", "Bryn Mawr (95th-bound)", "Bryn Mawr", "Bryn Mawr (Red Line)", "41380", false, true, false, false, false, false, false, false, false, false, [ null, "41.983504", "-87.65884", null, false ] ]
+, [ 59, "59BBC044-AD93-42B4-810B-23400F72297A", 59, 1514938516, "395245", 1514938516, "395245", null, "30086", "E", "California (Loop-bound)", "California", "California (Pink Line)", "40440", true, false, false, false, false, false, false, false, true, false, [ null, "41.854109", "-87.694774", null, false ] ]
+, [ 60, "F6F83F11-0132-43D9-9FE5-8239EC8A9D1D", 60, 1514938516, "395245", 1514938516, "395245", null, "30087", "W", "California (54th/Cermak-bound)", "California", "California (Pink Line)", "40440", true, false, false, false, false, false, false, false, true, false, [ null, "41.854109", "-87.694774", null, false ] ]
+, [ 61, "D1AA6936-4197-4C1C-A050-340820508E42", 61, 1514938516, "395245", 1514938516, "395245", null, "30111", "N", "California (O'Hare-bound)", "California", "California (Blue Line)", "40570", false, false, true, false, false, false, false, false, false, false, [ null, "41.921939", "-87.69689", null, false ] ]
+, [ 62, "6ED9AE3C-66A5-4887-8E42-1F05A20E2326", 62, 1514938516, "395245", 1514938516, "395245", null, "30112", "S", "California (Forest Pk-bound)", "California", "California  (Blue Line)", "40570", false, false, true, false, false, false, false, false, false, false, [ null, "41.921939", "-87.69689", null, false ] ]
+, [ 63, "AB240149-C0EE-4D43-AE9D-3C50A580C2B2", 63, 1514938516, "395245", 1514938516, "395245", null, "30266", "W", "California (Harlem-bound)", "California", "California (Green Line)", "41360", true, false, false, true, false, false, false, false, false, false, [ null, "41.88422", "-87.696234", null, false ] ]
+, [ 64, "9B57F36B-BEB3-4F2C-8720-A202BB9594DE", 64, 1514938516, "395245", 1514938516, "395245", null, "30265", "E", "California (63rd-bound)", "California", "California (Green Line)", "41360", true, false, false, true, false, false, false, false, false, false, [ null, "41.88422", "-87.696234", null, false ] ]
+, [ 65, "707ADBC0-4DB1-4E18-B5D5-B21FCB945F63", 65, 1514938516, "395245", 1514938516, "395245", null, "30242", "S", "Central (Howard-Loop-bound)", "Central", "Central (Purple Line)", "41250", false, false, false, false, false, true, true, false, false, false, [ null, "42.063987", "-87.685617", null, false ] ]
+, [ 66, "E272B2FE-149B-4046-B2EF-9B38568A7648", 66, 1514938516, "395245", 1514938516, "395245", null, "30241", "N", "Central (Linden-bound)", "Central", "Central (Purple Line)", "41250", false, false, false, false, false, true, true, false, false, false, [ null, "42.063987", "-87.685617", null, false ] ]
+, [ 67, "4E1F9534-9535-4414-B3B1-5B0772035973", 67, 1514938516, "395245", 1514938516, "395245", null, "30055", "W", "Central (Harlem-bound)", "Central", "Central (Green Line)", "40280", true, false, false, true, false, false, false, false, false, false, [ null, "41.887389", "-87.76565", null, false ] ]
+, [ 68, "B09A23F1-59B6-4351-8CD3-072CF3234F01", 68, 1514938516, "395245", 1514938516, "395245", null, "30054", "E", "Central (63rd-bound)", "Central", "Central (Green Line)", "40280", true, false, false, true, false, false, false, false, false, false, [ null, "41.887389", "-87.76565", null, false ] ]
+, [ 69, "C53087F0-95E8-44A3-87C5-D92A6FC9FE50", 69, 1514938516, "395245", 1514938516, "395245", null, "30151", "E", "Central Park (Loop-bound)", "Central Park", "Central Park (Pink Line)", "40780", true, false, false, false, false, false, false, false, true, false, [ null, "41.853839", "-87.714842", null, false ] ]
+, [ 70, "3C7667D6-814E-4413-85A1-B23A8176B144", 70, 1514938516, "395245", 1514938516, "395245", null, "30152", "W", "Central Park (54th/Cermak-bound)", "Central Park", "Central Park (Pink Line)", "40780", true, false, false, false, false, false, false, false, true, false, [ null, "41.853839", "-87.714842", null, false ] ]
+, [ 71, "DBD44C79-9158-4DB1-B783-8ADB0DCCAB4F", 71, 1514938516, "395245", 1514938516, "395245", null, "30194", "S", "Cermak-Chinatown (95th-bound)", "Cermak-Chinatown", "Cermak-Chinatown (Red Line)", "41000", true, true, false, false, false, false, false, false, false, false, [ null, "41.853206", "-87.630968", null, false ] ]
+, [ 72, "A1E3156E-B2AA-4114-96F4-9C20B39FC8F3", 72, 1514938516, "395245", 1514938516, "395245", null, "30193", "N", "Cermak-Chinatown (Howard-bound)", "Cermak-Chinatown", "Cermak-Chinatown (Red Line)", "41000", true, true, false, false, false, false, false, false, false, false, [ null, "41.853206", "-87.630968", null, false ] ]
+, [ 73, "2E56774B-9E11-4210-A6C5-8EA7459346EB", 73, 1514938516, "395245", 1514938516, "395245", null, "30382", "S", "Cermak-McCormick Place (63rd-bound)", "Cermak-McCormick Place", "Cermak-McCormick Place (Green Line)", "41690", true, false, false, true, false, false, false, false, false, false, [ null, "41.853115", "-87.626402", null, false ] ]
+, [ 40, "FCAD9D8F-2C0C-4012-8332-7CCAC951114C", 40, 1514938516, "395245", 1526408630, "395245", null, "30032", "E", "Ashland (Loop-63rd-bound)", "Ashland", "Ashland (Green & Pink Lines)", "40170", true, false, false, true, false, false, false, false, true, false, [ null, "41.885269", "-87.666969", null, false ] ]
+, [ 74, "011019CA-90CA-40AD-A9C1-AA6EE00E4270", 74, 1514938516, "395245", 1514938516, "395245", null, "30381", "N", "Cermak-McCormick Place (Harlem-bound)", "Cermak-McCormick Place", "Cermak-McCormick Place (Green Line)", "41690", true, false, false, true, false, false, false, false, false, false, [ null, "41.853115", "-87.626402", null, false ] ]
+, [ 75, "00BCC11C-AC46-4E00-96A3-70BDD0C3EC47", 75, 1514938516, "395245", 1514938516, "395245", null, "30138", "S", "Chicago (Loop-bound)", "Chicago", "Chicago (Brown & Purple Lines)", "40710", true, false, false, false, true, false, true, false, false, false, [ null, "41.89681", "-87.635924", null, false ] ]
+, [ 76, "2EB20DA8-FAB8-43B0-80AE-C759C3F276BA", 76, 1514938516, "395245", 1514938516, "395245", null, "30271", "N", "Chicago (O'Hare-bound)", "Chicago", "Chicago (Blue Line)", "41410", false, false, true, false, false, false, false, false, false, false, [ null, "41.896075", "-87.655214", null, false ] ]
+, [ 77, "D3A6F21C-B487-4CBB-B2B5-ADE281965D92", 77, 1514938516, "395245", 1514938516, "395245", null, "30272", "S", "Chicago (Forest Pk-bound)", "Chicago", "Chicago (Blue Line)", "41410", false, false, true, false, false, false, false, false, false, false, [ null, "41.896075", "-87.655214", null, false ] ]
+, [ 78, "5599F481-E079-4C91-9D92-93DEC1599765", 78, 1514938516, "395245", 1514938516, "395245", null, "30279", "N", "Chicago (Howard-bound)", "Chicago", "Chicago (Red Line)", "41450", true, true, false, false, false, false, false, false, false, false, [ null, "41.896671", "-87.628176", null, false ] ]
+, [ 79, "7DB67B63-81D9-40E4-9149-5CCC7457D1F0", 79, 1514938516, "395245", 1514938516, "395245", null, "30280", "S", "Chicago (95th-bound)", "Chicago", "Chicago (Red Line)", "41450", true, true, false, false, false, false, false, false, false, false, [ null, "41.896671", "-87.628176", null, false ] ]
+, [ 80, "7E9C25F4-08F5-4FA0-8736-374E4DB400C2", 80, 1514938516, "395245", 1514938516, "395245", null, "30137", "N", "Chicago (Kimball-Linden-bound)", "Chicago", "Chicago (Brown & Purple Lines)", "40710", true, false, false, false, true, false, true, false, false, false, [ null, "41.89681", "-87.635924", null, false ] ]
+, [ 81, "DBC2AF40-C378-40C9-BE5F-97184EE38551", 81, 1514938516, "395245", 1514938516, "395245", null, "30187", "E", "Cicero (O'Hare-bound)", "Cicero", "Cicero (Blue Line)", "40970", false, false, true, false, false, false, false, false, false, false, [ null, "41.871574", "-87.745154", null, false ] ]
+, [ 82, "C5122907-3379-463E-9D34-86AB17A77670", 82, 1514938516, "395245", 1514938516, "395245", null, "30083", "W", "Cicero (54th/Cermak-bound)", "Cicero", "Cicero (Pink Line)", "40420", true, false, false, false, false, false, false, false, true, false, [ null, "41.85182", "-87.745336", null, false ] ]
+, [ 83, "322CC69B-222D-4EBD-8148-E64ACC821FDA", 83, 1514938516, "395245", 1514938516, "395245", null, "30082", "E", "Cicero (Loop-bound)", "Cicero", "Cicero (Pink Line)", "40420", true, false, false, false, false, false, false, false, true, false, [ null, "41.85182", "-87.745336", null, false ] ]
+, [ 84, "464653B1-FDBD-4627-8293-6DA6BC45AD0F", 84, 1514938516, "395245", 1514938516, "395245", null, "30188", "W", "Cicero (Forest Pk-bound)", "Cicero", "Cicero (Blue Line)", "40970", false, false, true, false, false, false, false, false, false, false, [ null, "41.871574", "-87.745154", null, false ] ]
+, [ 85, "8FF54E94-0521-42E7-BFCB-0F3A7FFCF72B", 85, 1514938516, "395245", 1514938516, "395245", null, "30009", "W", "Cicero (Harlem-bound)", "Cicero", "Cicero (Green Line)", "40480", true, false, false, true, false, false, false, false, false, false, [ null, "41.886519", "-87.744698", null, false ] ]
+, [ 86, "D6330CD5-20AC-421A-B23C-985655564871", 86, 1514938516, "395245", 1514938516, "395245", null, "30094", "E", "Cicero (63rd-bound)", "Cicero", "Cicero (Green Line)", "40480", true, false, false, true, false, false, false, false, false, false, [ null, "41.886519", "-87.744698", null, false ] ]
+, [ 87, "B61A6306-9075-4370-B717-BE6844A41643", 87, 1514938516, "395245", 1514938516, "395245", null, "30122", "S", "Clark/Division (95th-bound)", "Clark/Division", "Clark/Division (Red Line)", "40630", true, true, false, false, false, false, false, false, false, false, [ null, "41.90392", "-87.631412", null, false ] ]
+, [ 88, "55E178F2-FD50-43FF-9017-FD3D0062F15E", 88, 1514938516, "395245", 1514938516, "395245", null, "30121", "N", "Clark/Division (Howard-bound)", "Clark/Division", "Clark/Division (Red Line)", "40630", true, true, false, false, false, false, false, false, false, false, [ null, "41.90392", "-87.631412", null, false ] ]
+, [ 89, "A309E749-49A5-4FF2-AC51-275A9041AACF", 89, 1514938516, "395245", 1514938516, "395245", null, "30074", "E", "Clark/Lake (Inner Loop)", "Clark/Lake", "Clark/Lake (Blue, Brown, Green, Orange, Purple & Pink Lines)", "40380", true, false, false, true, false, false, true, false, true, true, [ null, "41.885737", "-87.630886", null, false ] ]
+, [ 90, "D7F7C7C2-1FF0-4DFA-83B5-F26A7AA1EF4A", 90, 1514938516, "395245", 1514938516, "395245", null, "30075", "W", "Clark/Lake (Outer Loop)", "Clark/Lake", "Clark/Lake (Blue, Brown, Green, Orange, Purple & Pink Lines)", "40380", true, false, false, true, true, false, false, false, false, false, [ null, "41.885737", "-87.630886", null, false ] ]
+, [ 91, "6FF0B344-46E7-41C9-88D8-1085CCC1AB68", 91, 1514938516, "395245", 1514938516, "395245", null, "30374", "S", "Clark/Lake (Forest Pk-bound)", "Clark/Lake", "Clark/Lake (Blue, Brown, Green, Orange, Purple & Pink Lines)", "40380", true, false, true, false, false, false, false, false, false, false, [ null, "41.885737", "-87.630886", null, false ] ]
+, [ 92, "0AE2D676-F582-4453-8517-EF3D17DBEB68", 92, 1514938516, "395245", 1514938516, "395245", null, "30375", "N", "Clark/Lake (O'Hare-bound)", "Clark/Lake", "Clark/Lake (Blue, Brown, Green, Orange, Purple & Pink Lines)", "40380", true, false, true, false, false, false, false, false, false, false, [ null, "41.885737", "-87.630886", null, false ] ]
+, [ 93, "5325F117-67C7-43D8-AE20-E4BC063ADE84", 93, 1514938516, "395245", 1514938516, "395245", null, "30222", "W", "Clinton (Harlem-54th/Cermak-bound)", "Clinton", "Clinton (Green & Pink Lines)", "41160", true, false, false, true, false, false, false, false, true, false, [ null, "41.885678", "-87.641782", null, false ] ]
+, [ 94, "243D5A0B-7664-476D-B1DE-8B2A1979CBAA", 94, 1514938516, "395245", 1514938516, "395245", null, "30221", "E", "Clinton (Loop-63rd-bound)", "Clinton", "Clinton (Green & Pink Lines)", "41160", true, false, false, true, false, false, false, false, true, false, [ null, "41.885678", "-87.641782", null, false ] ]
+, [ 95, "EB460D68-C901-4E13-81A2-3690A7230F9C", 95, 1514938516, "395245", 1514938516, "395245", null, "30085", "W", "Clinton (Forest Pk-bound)", "Clinton", "Clinton (Blue Line)", "40430", false, false, true, false, false, false, false, false, false, false, [ null, "41.875539", "-87.640984", null, false ] ]
+, [ 96, "FC4825FA-E686-4572-AD69-D7921617CDDD", 96, 1514938516, "395245", 1514938516, "395245", null, "30084", "E", "Clinton (O'Hare-bound)", "Clinton", "Clinton (Blue Line)", "40430", false, false, true, false, false, false, false, false, false, false, [ null, "41.875539", "-87.640984", null, false ] ]
+, [ 97, "221479F1-D9B0-4A35-9E14-4E086C4EACDD", 97, 1514938516, "395245", 1514938516, "395245", null, "30291", "E", "Conservatory (63rd-bound)", "Conservatory", "Conservatory (Green Line)", "41670", true, false, false, true, false, false, false, false, false, false, [ null, "41.884904", "-87.716523", null, false ] ]
+, [ 98, "B1459FA4-CD9F-40BA-8BFD-86F9D41A70AA", 98, 1514938516, "395245", 1514938516, "395245", null, "30292", "W", "Conservatory (Harlem-bound)", "Conservatory", "Conservatory (Green Line)", "41670", true, false, false, true, false, false, false, false, false, false, [ null, "41.884904", "-87.716523", null, false ] ]
+, [ 99, "4719602E-8A5A-4782-96A3-5EF5EC54C3D9", 99, 1514938516, "395245", 1514938516, "395245", null, "30140", "W", "Cottage Grove (Harlem-bound)", "Cottage Grove", "Cottage Grove (Green Line)", "40720", true, false, false, true, false, false, false, false, false, false, [ null, "41.780309", "-87.605857", null, false ] ]
+, [ 100, "C38BB7AA-A04D-443E-A103-A82A0941D067", 100, 1514938516, "395245", 1514938516, "395245", null, "30139", "E", "Cottage Grove (Terminal arrival)", "Cottage Grove", "Cottage Grove (Green Line)", "40720", true, false, false, true, false, false, false, false, false, false, [ null, "41.780309", "-87.605857", null, false ] ]
+, [ 101, "F8FC17EB-2844-4DAA-A90D-1D8118D13EDC", 101, 1514938516, "395245", 1514938516, "395245", null, "30044", "N", "Cumberland (O'Hare-bound)", "Cumberland", "Cumberland (Blue Line)", "40230", true, false, true, false, false, false, false, false, false, false, [ null, "41.984246", "-87.838028", null, false ] ]
+, [ 102, "0FFE8F9E-3AF8-4947-BAEA-4AD3804DE904", 102, 1514938516, "395245", 1514938516, "395245", null, "30045", "S", "Cumberland (Forest Pk-bound)", "Cumberland", "Cumberland (Blue Line)", "40230", true, false, true, false, false, false, false, false, false, false, [ null, "41.984246", "-87.838028", null, false ] ]
+, [ 103, "27161EE2-E33A-4911-9BE1-5BEEF17578D8", 103, 1514938516, "395245", 1514938516, "395245", null, "30019", "S", "Damen (Loop-bound)", "Damen", "Damen (Brown Line)", "40090", true, false, false, false, true, false, false, false, false, false, [ null, "41.966286", "-87.678639", null, false ] ]
+, [ 104, "ECE92EFE-C168-4786-8DFA-8132876EC713", 104, 1514938516, "395245", 1514938516, "395245", null, "30041", "W", "Damen (54th/Cermak-bound)", "Damen", "Damen (Pink Line)", "40210", true, false, false, false, false, false, false, false, true, false, [ null, "41.854517", "-87.675975", null, false ] ]
+, [ 105, "D2D7D47C-BD19-427F-91F0-6BA25F8FB7D6", 105, 1514938516, "395245", 1514938516, "395245", null, "30040", "E", "Damen (Loop-bound)", "Damen", "Damen (Pink Line)", "40210", true, false, false, false, false, false, false, false, true, false, [ null, "41.854517", "-87.675975", null, false ] ]
+, [ 106, "CF1A3695-09A0-43B4-BBF6-31C221776AAB", 106, 1514938516, "395245", 1514938516, "395245", null, "30116", "S", "Damen/Milwaukee (Forest Pk-bound)", "Damen", "Damen (Blue Line)", "40590", false, false, true, false, false, false, false, false, false, false, [ null, "41.909744", "-87.677437", null, false ] ]
+, [ 107, "33255985-FDE5-4575-944C-6C4D9C55B554", 107, 1514938516, "395245", 1514938516, "395245", null, "30115", "N", "Damen/Milwaukee (O'Hare-bound)", "Damen", "Damen (Blue Line)", "40590", false, false, true, false, false, false, false, false, false, false, [ null, "41.909744", "-87.677437", null, false ] ]
+, [ 108, "E61FF96E-1E7B-4775-AB07-7A173FD19F43", 108, 1514938516, "395245", 1514938516, "395245", null, "30018", "N", "Damen (Kimball-bound)", "Damen", "Damen (Brown Line)", "40090", true, false, false, false, true, false, false, false, false, false, [ null, "41.966286", "-87.678639", null, false ] ]
+, [ 109, "3BC0E8C3-A0EB-4206-999F-D56F4A277F0B", 109, 1514938516, "395245", 1514938516, "395245", null, "30010", "N", "Davis (Linden-bound)", "Davis", "Davis (Purple Line)", "40050", true, false, false, false, false, true, true, false, false, false, [ null, "42.04771", "-87.683543", null, false ] ]
+, [ 110, "304A43AD-11B0-4DA7-ACBE-F070D1B54F88", 110, 1514938516, "395245", 1514938516, "395245", null, "30011", "S", "Davis (Howard-Loop-bound)", "Davis", "Davis (Purple Line)", "40050", true, false, false, false, false, true, true, false, false, false, [ null, "42.04771", "-87.683543", null, false ] ]
+, [ 111, "EBE3FD11-FC04-4C3C-BB9E-D0477565C8A6", 111, 1514938516, "395245", 1514938516, "395245", null, "30133", "N", "Dempster (Linden-bound)", "Dempster", "Dempster (Purple Line)", "40690", false, false, false, false, false, true, true, false, false, false, [ null, "42.041655", "-87.681602", null, false ] ]
+, [ 112, "B3BF2FF4-201E-4514-9DDA-0EEF6AB655D1", 112, 1514938516, "395245", 1514938516, "395245", null, "30134", "S", "Dempster (Howard-Loop-bound)", "Dempster", "Dempster (Purple Line)", "40690", false, false, false, false, false, true, true, false, false, false, [ null, "42.041655", "-87.681602", null, false ] ]
+, [ 113, "B197A5F6-490E-4EC9-9FCE-B4DDD7AEEC89", 113, 1514938516, "395245", 1514938516, "395245", null, "30026", "N", "Dempster-Skokie (Arrival)", "Dempster-Skokie", "Dempster-Skokie  (Yellow Line)", "40140", true, false, false, false, false, false, false, true, false, false, [ null, "42.038951", "-87.751919", null, false ] ]
+, [ 114, "67396140-2B96-4CBF-A837-3CF35F7B6843", 114, 1514938516, "395245", 1514938516, "395245", null, "30027", "S", "Dempster-Skokie (Howard-bound)", "Dempster-Skokie", "Dempster-Skokie  (Yellow Line)", "40140", true, false, false, false, false, false, false, true, false, false, [ null, "42.038951", "-87.751919", null, false ] ]
+, [ 115, "C65E4A13-630D-4366-8CDF-4B5A657C6001", 115, 1514938516, "395245", 1514938516, "395245", null, "30103", "N", "Diversey (Kimball-Linden-bound)", "Diversey", "Diversey (Brown & Purple Lines)", "40530", true, false, false, false, true, false, true, false, false, false, [ null, "41.932732", "-87.653131", null, false ] ]
+, [ 116, "5FAD6BAA-97ED-4869-AAE1-CF2746C3840A", 116, 1514938516, "395245", 1514938516, "395245", null, "30104", "S", "Diversey (Loop-bound)", "Diversey", "Diversey (Brown & Purple Lines)", "40530", true, false, false, false, true, false, true, false, false, false, [ null, "41.932732", "-87.653131", null, false ] ]
+, [ 117, "16AFAD3C-F21B-49C7-9828-B3DC21786B51", 117, 1514938516, "395245", 1514938516, "395245", null, "30062", "N", "Division (O'Hare-bound)", "Division", "Division (Blue Line)", "40320", false, false, true, false, false, false, false, false, false, false, [ null, "41.903355", "-87.666496", null, false ] ]
+, [ 118, "E8AFDA36-7C6F-4308-8CF3-4C5EBF796364", 118, 1514938516, "395245", 1514938516, "395245", null, "30063", "S", "Division (Forest Pk-bound)", "Division", "Division (Blue Line)", "40320", false, false, true, false, false, false, false, false, false, false, [ null, "41.903355", "-87.666496", null, false ] ]
+, [ 119, "A017C744-3669-4987-925D-0307065087AF", 119, 1514938516, "395245", 1514938516, "395245", null, "30077", "W", "Forest Park (Terminal Arrival)", "Forest Park", "Forest Park (Blue Line)", "40390", true, false, true, false, false, false, false, false, false, false, [ null, "41.874257", "-87.817318", null, false ] ]
+, [ 120, "45C1DA3C-3971-4659-BDE1-905F37727442", 120, 1514938516, "395245", 1514938516, "395245", null, "30076", "E", "Forest Park (O'Hare-bound)", "Forest Park", "Forest Park (Blue Line)", "40390", true, false, true, false, false, false, false, false, false, false, [ null, "41.874257", "-87.817318", null, false ] ]
+, [ 121, "18E32592-B881-4226-B1D8-673A872E5789", 121, 1514938516, "395245", 1514938516, "395245", null, "30101", "N", "Foster (Linden-bound)", "Foster", "Foster (Purple Line)", "40520", false, false, false, false, false, true, true, false, false, false, [ null, "42.05416", "-87.68356", null, false ] ]
+, [ 122, "F7CFEA05-8344-42C6-BDF7-D4254CA538D1", 122, 1514938516, "395245", 1514938516, "395245", null, "30102", "S", "Foster (Howard-Loop-bound)", "Foster", "Foster (Purple Line)", "40520", false, false, false, false, false, true, true, false, false, false, [ null, "42.05416", "-87.68356", null, false ] ]
+, [ 123, "3CC57DF4-1E26-45A7-BC81-3021EDE50A79", 123, 1514938516, "395245", 1514938516, "395245", null, "30168", "S", "Francisco (Loop-bound)", "Francisco", "Francisco (Brown Line)", "40870", true, false, false, false, true, false, false, false, false, false, [ null, "41.966046", "-87.701644", null, false ] ]
+, [ 124, "801CE384-82A4-495A-B8BF-B23B78826DED", 124, 1514938516, "395245", 1514938516, "395245", null, "30167", "N", "Francisco (Kimball-bound)", "Francisco", "Francisco (Brown Line)", "40870", true, false, false, false, true, false, false, false, false, false, [ null, "41.966046", "-87.701644", null, false ] ]
+, [ 125, "62D69F13-3D21-4F59-BF84-C303F61D7031", 125, 1514938516, "395245", 1514938516, "395245", null, "30234", "S", "Fullerton (95th-bound)", "Fullerton", "Fullerton (Red, Brown & Purple Lines)", "41220", true, true, false, false, false, false, false, false, false, false, [ null, "41.925051", "-87.652866", null, false ] ]
+, [ 126, "173FD419-40AB-4177-8E8C-202DF33139FE", 126, 1514938516, "395245", 1514938516, "395245", null, "30236", "S", "Fullerton (Loop-bound)", "Fullerton", "Fullerton (Red, Brown & Purple Lines)", "41220", true, false, false, false, true, false, true, false, false, false, [ null, "41.925051", "-87.652866", null, false ] ]
+, [ 127, "5BF670AA-ECA2-49B2-85E8-FAA5025A1647", 127, 1514938516, "395245", 1514938516, "395245", null, "30235", "N", "Fullerton (Kimball-Linden-bound)", "Fullerton", "Fullerton (Red, Brown & Purple Lines)", "41220", true, false, false, false, true, false, true, false, false, false, [ null, "41.925051", "-87.652866", null, false ] ]
+, [ 128, "EF0B1C6F-34A4-4946-8B25-13584B79D24F", 128, 1514938516, "395245", 1514938516, "395245", null, "30233", "N", "Fullerton (Howard-bound)", "Fullerton", "Fullerton (Red, Brown & Purple Lines)", "41220", true, true, false, false, false, false, false, false, false, false, [ null, "41.925051", "-87.652866", null, false ] ]
+, [ 129, "99660935-2464-430B-A0C6-A116BF16F7F6", 129, 1514938516, "395245", 1514938516, "395245", null, "30100", "S", "Garfield (63rd-bound)", "Garfield", "Garfield (Green Line)", "40510", true, false, false, true, false, false, false, false, false, false, [ null, "41.795172", "-87.618327", null, false ] ]
+, [ 130, "B1981556-F0E0-4E84-947D-A59E564F01EA", 130, 1514938516, "395245", 1514938516, "395245", null, "30224", "S", "Garfield (95th-bound)", "Garfield", "Garfield (Red Line)", "41170", true, true, false, false, false, false, false, false, false, false, [ null, "41.79542", "-87.631157", null, false ] ]
+, [ 131, "D358A343-129A-44A0-94B4-F52053E52507", 131, 1514938516, "395245", 1514938516, "395245", null, "30223", "N", "Garfield (Howard-bound)", "Garfield", "Garfield (Red Line)", "41170", true, true, false, false, false, false, false, false, false, false, [ null, "41.79542", "-87.631157", null, false ] ]
+, [ 132, "FE0B6D9F-17F8-492A-BB71-6ACF6DB1AAFF", 132, 1514938516, "395245", 1514938516, "395245", null, "30099", "N", "Garfield (Harlem-bound)", "Garfield", "Garfield (Green Line)", "40510", true, false, false, true, false, false, false, false, false, false, [ null, "41.795172", "-87.618327", null, false ] ]
+, [ 133, "4A33C47E-AFDA-450E-BBAC-E53B502BCFC2", 133, 1514938516, "395245", 1514938516, "395245", null, "30096", "S", "Grand/Milwaukee (Forest Pk-bound)", "Grand", "Grand (Blue Line)", "40490", false, false, true, false, false, false, false, false, false, false, [ null, "41.891189", "-87.647578", null, false ] ]
+, [ 134, "32E91845-E80A-4052-A3CC-D0DD6F0ACDD5", 134, 1514938516, "395245", 1514938516, "395245", null, "30064", "N", "Grand/State (Howard-bound)", "Grand", "Grand (Red Line)", "40330", true, true, false, false, false, false, false, false, false, false, [ null, "41.891665", "-87.628021", null, false ] ]
+, [ 135, "63F08491-0528-4EB2-8EB5-3B858A65B137", 135, 1514938516, "395245", 1514938516, "395245", null, "30065", "S", "Grand/State (95th-bound)", "Grand", "Grand (Red Line)", "40330", true, true, false, false, false, false, false, false, false, false, [ null, "41.891665", "-87.628021", null, false ] ]
+, [ 136, "1ECD0A13-0B21-48C2-A38C-797C815D98EA", 136, 1514938516, "395245", 1514938516, "395245", null, "30095", "N", "Grand/Milwaukee (O'Hare-bound)", "Grand", "Grand (Blue Line)", "40490", false, false, true, false, false, false, false, false, false, false, [ null, "41.891189", "-87.647578", null, false ] ]
+, [ 137, "FFD2F5C7-9512-473A-B2A8-C4174DC6128F", 137, 1514938516, "395245", 1514938516, "395245", null, "30148", "S", "Granville (95th-bound)", "Granville", "Granville (Red Line)", "40760", true, true, false, false, false, false, false, false, false, false, [ null, "41.993664", "-87.659202", null, false ] ]
+, [ 138, "4CD88EC3-D274-4ECF-8F0D-C1E23E334D86", 138, 1514938516, "395245", 1514938516, "395245", null, "30147", "N", "Granville (Howard-bound)", "Granville", "Granville (Red Line)", "40760", true, true, false, false, false, false, false, false, false, false, [ null, "41.993664", "-87.659202", null, false ] ]
+, [ 139, "8EE46747-E2B9-466A-9A97-05A9FAC0D592", 139, 1514938516, "395245", 1514938516, "395245", null, "30183", "E", "Halsted/63rd (Harlem-bound)", "Halsted", "Halsted (Green Line)", "40940", true, false, false, true, false, false, false, false, false, false, [ null, "41.778943", "-87.644244", null, false ] ]
+, [ 140, "D888D10B-A034-4497-970E-B570149A0AD9", 140, 1514938516, "395245", 1514938516, "395245", null, "30216", "S", "Halsted (Midway-bound)", "Halsted", "Halsted (Orange Line)", "41130", true, false, false, false, false, false, false, false, false, true, [ null, "41.84678", "-87.648088", null, false ] ]
+, [ 141, "E5D385EA-3CFE-42DD-B6CD-3B3E222B467A", 141, 1514938516, "395245", 1514938516, "395245", null, "30184", "W", "Halsted/63rd (Ashland-bound)", "Halsted", "Halsted (Green Line)", "40940", true, false, false, true, false, false, false, false, false, false, [ null, "41.778943", "-87.644244", null, false ] ]
+, [ 142, "F70D0A20-7588-4C19-9C9C-D94F24F3F471", 142, 1514938516, "395245", 1514938516, "395245", null, "30215", "N", "Halsted (Loop-bound)", "Halsted", "Halsted (Orange Line)", "41130", true, false, false, false, false, false, false, false, false, true, [ null, "41.84678", "-87.648088", null, false ] ]
+, [ 143, "E65B6D5D-4277-4A43-AA82-FBA917D4AB80", 143, 1514938516, "395245", 1514938516, "395245", null, "30189", "E", "Harlem (Forest Pk Branch) (O'Hare-bound)", "Harlem", "Harlem (Blue Line - Forest Park Branch)", "40980", false, false, true, false, false, false, false, false, false, false, [ null, "41.87349", "-87.806961", null, false ] ]
+, [ 144, "3428F662-B82B-4D26-87D8-665263DCAB07", 144, 1514938516, "395245", 1514938516, "395245", null, "30146", "S", "Harlem (O'Hare Branch) (Forest Pk-bound)", "Harlem", "Harlem (Blue Line - O'Hare Branch)", "40750", true, false, true, false, false, false, false, false, false, false, [ null, "41.98227", "-87.8089", null, false ] ]
+, [ 145, "6D95A281-69E8-4C42-9312-DAFE6E6CC3E5", 145, 1514938516, "395245", 1514938516, "395245", null, "30145", "N", "Harlem (O'Hare Branch) (O'Hare-bound)", "Harlem", "Harlem (Blue Line - O'Hare Branch)", "40750", true, false, true, false, false, false, false, false, false, false, [ null, "41.98227", "-87.8089", null, false ] ]
+, [ 146, "17B4F271-CB07-4FF5-807C-FE44AC134544", 146, 1514938516, "395245", 1514938516, "395245", null, "30190", "W", "Harlem (Forest Pk Branch) (Terminal arrival)", "Harlem", "Harlem (Blue Line - Forest Park Branch)", "40980", false, false, true, false, false, false, false, false, false, false, [ null, "41.87349", "-87.806961", null, false ] ]
+, [ 147, "6CC75FD2-9E25-4D67-8BA1-E5A9CB17ED49", 147, 1514938516, "395245", 1514938516, "395245", null, "30003", "E", "Harlem (63rd-bound)", "Harlem/Lake", "Harlem/Lake (Green Line)", "40020", true, false, false, true, false, false, false, false, false, false, [ null, "41.886848", "-87.803176", null, false ] ]
+, [ 148, "D42C1D02-1EB0-494F-9825-916075961BDF", 148, 1514938516, "395245", 1514938516, "395245", null, "30004", "W", "Harlem (Terminal arrival)", "Harlem/Lake", "Harlem/Lake (Green Line)", "40020", true, false, false, true, false, false, false, false, false, false, [ null, "41.886848", "-87.803176", null, false ] ]
+, [ 149, "12C1F6CE-06CF-484B-BFEC-E32393E4D343", 149, 1514938516, "395245", 1514938516, "395245", null, "30165", "E", "H.W. Library (Outer Loop)", "Harold Washington Library-State/Van Buren", "Harold Washington Library-State/Van Buren (Brown, Orange, Purple & Pink Lines)", "40850", true, false, false, false, true, false, false, false, false, false, [ null, "41.876862", "-87.628196", null, false ] ]
+, [ 150, "670E75C6-1783-4908-A469-93020940A259", 150, 1514938516, "395245", 1514938516, "395245", null, "30166", "W", "H.W. Library (Inner Loop)", "Harold Washington Library-State/Van Buren", "Harold Washington Library-State/Van Buren (Brown, Orange, Purple & Pink Lines)", "40850", true, false, false, false, false, false, true, false, true, true, [ null, "41.876862", "-87.628196", null, false ] ]
+, [ 151, "61E0313E-FE0B-4091-96F8-2DDA8B9EE537", 151, 1514938516, "395245", 1514938516, "395245", null, "30286", "S", "Harrison (95th-bound)", "Harrison", "Harrison (Red Line)", "41490", false, true, false, false, false, false, false, false, false, false, [ null, "41.874039", "-87.627479", null, false ] ]
+, [ 152, "B48D9D2C-6B44-4E1F-836A-DB3FCE3E19B0", 152, 1514938516, "395245", 1514938516, "395245", null, "30285", "N", "Harrison (Howard-bound)", "Harrison", "Harrison (Red Line)", "41490", false, true, false, false, false, false, false, false, false, false, [ null, "41.874039", "-87.627479", null, false ] ]
+, [ 153, "F1280D05-8E86-4695-890E-4AA674AE8D7C", 153, 1514938516, "395245", 1514938516, "395245", null, "30173", "N", "Howard (Terminal arrival)", "Howard", "Howard (Red, Purple & Yellow Lines)", "40900", true, true, false, false, false, false, false, false, false, false, [ null, "42.019063", "-87.672892", null, false ] ]
+, [ 154, "69434369-829E-41F2-A2DB-48CBCB7A8DF9", 154, 1514938516, "395245", 1514938516, "395245", null, "30176", "S", "Howard (Terminal arrival)", "Howard", "Howard (Red, Purple & Yellow Lines)", "40900", true, false, false, false, false, true, true, true, false, false, [ null, "42.019063", "-87.672892", null, false ] ]
+, [ 155, "B3CD4CF3-05FD-4C51-BE75-B6AC20FEC64C", 155, 1514938516, "395245", 1514938516, "395245", null, "30175", "N", "Howard (Linden, Skokie-bound)", "Howard", "Howard (Red, Purple & Yellow Lines)", "40900", true, false, false, false, false, true, true, true, false, false, [ null, "42.019063", "-87.672892", null, false ] ]
+, [ 156, "829C5C74-13E4-4951-A766-36E2290154F0", 156, 1514938516, "395245", 1514938516, "395245", null, "30174", "S", "Howard (95th-Bound)", "Howard", "Howard (Red, Purple & Yellow Lines)", "40900", true, true, false, false, false, false, false, false, false, false, [ null, "42.019063", "-87.672892", null, false ] ]
+, [ 157, "408B6871-2D43-49DB-8E5E-00B7ECDBC19C", 157, 1514938516, "395245", 1514938516, "395245", null, "30157", "E", "Illinois Medical District (O'Hare-bound)", "Illinois Medical District", "Illinois Medical District (Blue Line)", "40810", true, false, true, false, false, false, false, false, false, false, [ null, "41.875706", "-87.673932", null, false ] ]
+, [ 158, "62C83165-BEBF-4121-A88B-986D06FB809A", 158, 1514938516, "395245", 1514938516, "395245", null, "30158", "W", "Illinois Medical District (Forest Pk-bound)", "Illinois Medical District", "Illinois Medical District (Blue Line)", "40810", true, false, true, false, false, false, false, false, false, false, [ null, "41.875706", "-87.673932", null, false ] ]
+, [ 159, "1CEA39D9-4E66-4B08-A7EB-EA88DB042E04", 159, 1514938516, "395245", 1514938516, "395245", null, "30059", "S", "Indiana (63rd-bound)", "Indiana", "Indiana (Green Line)", "40300", true, false, false, true, false, false, false, false, false, false, [ null, "41.821732", "-87.621371", null, false ] ]
+, [ 160, "5B56FD8A-622B-479B-9D36-C41EBA67E4FF", 160, 1514938516, "395245", 1514938516, "395245", null, "30058", "N", "Indiana (Harlem-bound)", "Indiana", "Indiana (Green Line)", "40300", true, false, false, true, false, false, false, false, false, false, [ null, "41.821732", "-87.621371", null, false ] ]
+, [ 161, "C45EBCB5-8638-40B3-9E1E-58F2AB26902A", 161, 1514938516, "395245", 1514938516, "395245", null, "30282", "S", "Irving Park (Loop-bound)", "Irving Park", "Irving Park (Brown Line)", "41460", true, false, false, false, true, false, false, false, false, false, [ null, "41.954521", "-87.674868", null, false ] ]
+, [ 162, "A4E575DE-9686-426E-8371-6885AE92855C", 162, 1514938516, "395245", 1514938516, "395245", null, "30107", "N", "Irving Park (O'Hare Branch) (O'Hare-bound)", "Irving Park", "Irving Park (Blue Line)", "40550", false, false, true, false, false, false, false, false, false, false, [ null, "41.952925", "-87.729229", null, false ] ]
+, [ 163, "73291EC4-1046-4486-BE9C-07A6813165B3", 163, 1514938516, "395245", 1514938516, "395245", null, "30108", "S", "Irving Park (O'Hare Branch) (Forest Pk-bound)", "Irving Park", "Irving Park (Blue Line)", "40550", false, false, true, false, false, false, false, false, false, false, [ null, "41.952925", "-87.729229", null, false ] ]
+, [ 164, "B6769BA7-48D0-4800-A257-94A0163D16CC", 164, 1514938516, "395245", 1514938516, "395245", null, "30281", "N", "Irving Park (Kimball-bound)", "Irving Park", "Irving Park (Brown Line)", "41460", true, false, false, false, true, false, false, false, false, false, [ null, "41.954521", "-87.674868", null, false ] ]
+, [ 165, "8E65D6C2-137A-44D3-AE68-0FB41A6044A1", 165, 1514938516, "395245", 1514938516, "395245", null, "30014", "N", "Jackson/Dearborn (O'Hare-bound)", "Jackson", "Jackson (Blue Line)", "40070", true, false, true, false, false, false, false, false, false, false, [ null, "41.878183", "-87.629296", null, false ] ]
+, [ 166, "9D2B6255-FA58-4017-84B7-1F62745AB4F0", 166, 1514938516, "395245", 1514938516, "395245", null, "30110", "S", "Jackson/State (95th-bound)", "Jackson", "Jackson (Red Line)", "40560", true, true, false, false, false, false, false, false, false, false, [ null, "41.878153", "-87.627596", null, false ] ]
+, [ 167, "C47E16BC-51C0-4415-82E6-E75BFEEAEBC6", 167, 1514938516, "395245", 1514938516, "395245", null, "30109", "N", "Jackson/State (Howard-bound)", "Jackson", "Jackson (Red Line)", "40560", true, true, false, false, false, false, false, false, false, false, [ null, "41.878153", "-87.627596", null, false ] ]
+, [ 168, "7C149EEF-D639-40A0-A79D-EA1D3E0C08E3", 168, 1514938516, "395245", 1514938516, "395245", null, "30015", "S", "Jackson/Dearborn (Forest Pk-bound)", "Jackson", "Jackson (Blue Line)", "40070", true, false, true, false, false, false, false, false, false, false, [ null, "41.878183", "-87.629296", null, false ] ]
+, [ 169, "6CF9EE79-69B6-48C2-BFEF-25996DC9A4D6", 169, 1514938516, "395245", 1514938516, "395245", null, "30227", "N", "Jarvis (Howard-bound)", "Jarvis", "Jarvis (Red Line)", "41190", false, true, false, false, false, false, false, false, false, false, [ null, "42.015876", "-87.669092", null, false ] ]
+, [ 170, "C76EE7B7-8086-4C71-B1B3-21A029C9134B", 170, 1514938516, "395245", 1514938516, "395245", null, "30228", "S", "Jarvis (95th-bound)", "Jarvis", "Jarvis (Red Line)", "41190", false, true, false, false, false, false, false, false, false, false, [ null, "42.015876", "-87.669092", null, false ] ]
+, [ 171, "7FA6D3A3-40C3-407F-ABA1-7C7902375A09", 171, 1514938516, "395245", 1514938516, "395245", null, "30247", "N", "Jefferson Park (O'Hare-bound)", "Jefferson Park", "Jefferson Park (Blue Line)", "41280", true, false, true, false, false, false, false, false, false, false, [ null, "41.970634", "-87.760892", null, false ] ]
+, [ 172, "7935979E-FB0C-4497-8820-3C38A1C59B93", 172, 1514938516, "395245", 1514938516, "395245", null, "30248", "S", "Jefferson Park (Forest Pk-bound)", "Jefferson Park", "Jefferson Park (Blue Line)", "41280", true, false, true, false, false, false, false, false, false, false, [ null, "41.970634", "-87.760892", null, false ] ]
+, [ 173, "4D3A94BA-E6BA-4BF7-918E-E11AB81FBBD5", 173, 1514938516, "395245", 1514938516, "395245", null, "30226", "S", "Kedzie (Loop-bound)", "Kedzie", "Kedzie (Brown Line)", "41180", true, false, false, false, true, false, false, false, false, false, [ null, "41.965996", "-87.708821", null, false ] ]
+, [ 174, "61FE6CE8-7D43-4FC9-B0DF-8175D67C6924", 174, 1514938516, "395245", 1514938516, "395245", null, "30219", "N", "Kedzie (Loop-bound)", "Kedzie", "Kedzie (Orange Line)", "41150", true, false, false, false, false, false, false, false, false, true, [ null, "41.804236", "-87.704406", null, false ] ]
+, [ 175, "687FDA76-0332-47AA-A4E6-628C77B33D55", 175, 1514938516, "395245", 1514938516, "395245", null, "30220", "S", "Kedzie (Midway-bound)", "Kedzie", "Kedzie (Orange Line)", "41150", true, false, false, false, false, false, false, false, false, true, [ null, "41.804236", "-87.704406", null, false ] ]
+, [ 176, "259BF997-21C8-442F-A2B5-C72F75F2AA11", 176, 1514938516, "395245", 1514938516, "395245", null, "30202", "W", "Kedzie (54th/Cermak-bound)", "Kedzie", "Kedzie (Pink Line)", "41040", true, false, false, false, false, false, false, false, true, false, [ null, "41.853964", "-87.705408", null, false ] ]
+, [ 177, "B2790267-8A79-4FCD-8EFF-7540E14A6251", 177, 1514938516, "395245", 1514938516, "395245", null, "30201", "E", "Kedzie (Loop-bound)", "Kedzie", "Kedzie (Pink Line)", "41040", true, false, false, false, false, false, false, false, true, false, [ null, "41.853964", "-87.705408", null, false ] ]
+, [ 178, "D8FC4F5C-3795-4417-977C-3295C0B47ADA", 178, 1514938516, "395245", 1514938516, "395245", null, "30225", "N", "Kedzie (Kimball-bound)", "Kedzie", "Kedzie (Brown Line)", "41180", true, false, false, false, true, false, false, false, false, false, [ null, "41.965996", "-87.708821", null, false ] ]
+, [ 179, "F8831A92-1878-42A6-B288-3C953F70B50F", 179, 1514938516, "395245", 1514938516, "395245", null, "30207", "E", "Kedzie (63rd-bound)", "Kedzie", "Kedzie (Green Line)", "41070", true, false, false, true, false, false, false, false, false, false, [ null, "41.884321", "-87.706155", null, false ] ]
+, [ 180, "0433F9DE-5BEE-460A-8E22-F7AA12171B10", 180, 1514938516, "395245", 1514938516, "395245", null, "30208", "W", "Kedzie (Harlem-bound)", "Kedzie", "Kedzie (Green Line)", "41070", true, false, false, true, false, false, false, false, false, false, [ null, "41.884321", "-87.706155", null, false ] ]
+, [ 181, "299C4BAD-B17D-4B56-BF52-1DAC1ED8669B", 181, 1514938516, "395245", 1514938516, "395245", null, "30049", "W", "Kedzie-Homan (Forest Pk-bound)", "Kedzie-Homan", "Kedzie-Homan (Blue Line)", "40250", true, false, true, false, false, false, false, false, false, false, [ null, "41.874341", "-87.70604", null, false ] ]
+, [ 182, "99FF3A99-07B8-45A5-86F6-5BA71153D457", 182, 1514938516, "395245", 1514938516, "395245", null, "30048", "E", "Kedzie-Homan (O'Hare-bound)", "Kedzie-Homan", "Kedzie-Homan (Blue Line)", "40250", true, false, true, false, false, false, false, false, false, false, [ null, "41.874341", "-87.70604", null, false ] ]
+, [ 183, "B5290B07-A30C-49D2-B0A5-2ABE3C41B701", 183, 1514938516, "395245", 1514938516, "395245", null, "30249", "N", "Kimball (Terminal arrival)", "Kimball", "Kimball (Brown Line)", "41290", true, false, false, false, true, false, false, false, false, false, [ null, "41.967901", "-87.713065", null, false ] ]
+, [ 184, "D7BDE69D-B389-4EDD-B4B3-D9CB9C82DFB2", 184, 1514938516, "395245", 1514938516, "395245", null, "30250", "S", "Kimball (Loop-bound)", "Kimball", "Kimball (Brown Line)", "41290", true, false, false, false, true, false, false, false, false, false, [ null, "41.967901", "-87.713065", null, false ] ]
+, [ 185, "4D373CCB-5A96-4F10-A2AA-0B56C4DC5D15", 185, 1514938516, "395245", 1514938516, "395245", null, "30217", "E", "King Drive (Cottage Grove-bound)", "King Drive", "King Drive (Green Line)", "41140", true, false, false, true, false, false, false, false, false, false, [ null, "41.78013", "-87.615546", null, false ] ]
+, [ 186, "98901F7C-66CF-4D97-9158-3883209826F8", 186, 1514938516, "395245", 1514938516, "395245", null, "30218", "W", "King Drive (Harlem-bound)", "King Drive", "King Drive (Green Line)", "41140", true, false, false, true, false, false, false, false, false, false, [ null, "41.78013", "-87.615546", null, false ] ]
+, [ 187, "98F5344E-5D61-4D9D-BE04-C49A077DF1CA", 187, 1514938516, "395245", 1514938516, "395245", null, "30117", "E", "Kostner (Loop-bound)", "Kostner", "Kostner (Pink Line)", "40600", true, false, false, false, false, false, false, false, true, false, [ null, "41.853751", "-87.733258", null, false ] ]
+, [ 188, "6BEBD5B6-81D9-41D9-963D-A7F67A9C1D98", 188, 1514938516, "395245", 1514938516, "395245", null, "30118", "W", "Kostner (54th/Cermak-bound)", "Kostner", "Kostner (Pink Line)", "40600", true, false, false, false, false, false, false, false, true, false, [ null, "41.853751", "-87.733258", null, false ] ]
+, [ 189, "DB1A376B-82EF-4FD5-8089-D665F4A2A6E6", 189, 1514938516, "395245", 1514938516, "395245", null, "30290", "S", "Lake (95th-bound)", "Lake", "Lake (Red Line)", "41660", true, true, false, false, false, false, false, false, false, false, [ null, "41.884809", "-87.627813", null, false ] ]
+, [ 190, "FD9D8F01-83D3-4F6C-9A58-791325FC1DB4", 190, 1514938516, "395245", 1514938516, "395245", null, "30289", "N", "Lake (Howard-bound)", "Lake", "Lake (Red Line)", "41660", true, true, false, false, false, false, false, false, false, false, [ null, "41.884809", "-87.627813", null, false ] ]
+, [ 191, "36527605-2F44-4C81-8503-EED72B191F7A", 191, 1514938516, "395245", 1514938516, "395245", null, "30135", "E", "Laramie (63rd-bound)", "Laramie", "Laramie (Green Line)", "40700", true, false, false, true, false, false, false, false, false, false, [ null, "41.887163", "-87.754986", null, false ] ]
+, [ 192, "AA7E327B-483D-4AFB-A5D7-67CEF9C0D7C1", 192, 1514938516, "395245", 1514938516, "395245", null, "30136", "W", "Laramie (Harlem-bound)", "Laramie", "Laramie (Green Line)", "40700", true, false, false, true, false, false, false, false, false, false, [ null, "41.887163", "-87.754986", null, false ] ]
+, [ 193, "DF639ED1-EE42-4B34-BAD2-65115B402BED", 193, 1514938516, "395245", 1514938516, "395245", null, "30262", "W", "LaSalle (Forest Pk-bound)", "LaSalle", "LaSalle (Blue Line)", "41340", false, false, true, false, false, false, false, false, false, false, [ null, "41.875568", "-87.631722", null, false ] ]
+, [ 194, "9A793FD5-9217-418D-8E54-D56E03BAB42A", 194, 1514938516, "395245", 1514938516, "395245", null, "30261", "E", "LaSalle (O'Hare-bound)", "LaSalle", "LaSalle (Blue Line)", "41340", false, false, true, false, false, false, false, false, false, false, [ null, "41.875568", "-87.631722", null, false ] ]
+, [ 195, "BE2D8311-848A-4730-8C98-0F68F98195F1", 195, 1514938516, "395245", 1514938516, "395245", null, "30030", "E", "LaSalle/Van Buren (Outer Loop)", "LaSalle/Van Buren", "LaSalle/Van Buren (Brown, Orange, Purple & Pink Lines)", "40160", false, false, false, false, true, false, false, false, false, false, [ null, "41.8768", "-87.631739", null, false ] ]
+, [ 196, "38CA3C8E-8F38-4FD1-A66D-EF3CBD291C46", 196, 1514938516, "395245", 1514938516, "395245", null, "30031", "W", "LaSalle/Van Buren (Inner Loop)", "LaSalle/Van Buren", "LaSalle/Van Buren (Brown, Orange, Purple & Pink Lines)", "40160", false, false, false, false, false, false, true, false, true, true, [ null, "41.8768", "-87.631739", null, false ] ]
+, [ 197, "737B8480-E21D-4218-B27A-C256DF6EA3C1", 197, 1514938516, "395245", 1514938516, "395245", null, "30149", "N", "Lawrence (Howard-bound)", "Lawrence", "Lawrence (Red Line)", "40770", false, true, false, false, false, false, false, false, false, false, [ null, "41.969139", "-87.658493", null, false ] ]
+, [ 198, "FAB0F666-AD13-4F64-B270-7DC17DBB07AF", 198, 1514938516, "395245", 1514938516, "395245", null, "30150", "S", "Lawrence (95th-bound)", "Lawrence", "Lawrence (Red Line)", "40770", false, true, false, false, false, false, false, false, false, false, [ null, "41.969139", "-87.658493", null, false ] ]
+, [ 199, "CAB4AC0D-745E-45E9-89BF-3D20FF545807", 199, 1514938516, "395245", 1514938516, "395245", null, "30203", "N", "Linden (Linden-bound)", "Linden", "Linden (Purple Line)", "41050", true, false, false, false, false, true, true, false, false, false, [ null, "42.073153", "-87.69073", null, false ] ]
+, [ 200, "321F8EDE-8273-4900-B484-01F54DC66EF1", 200, 1514938516, "395245", 1514938516, "395245", null, "30204", "S", "Linden (Howard-Loop-bound)", "Linden", "Linden (Purple Line)", "41050", true, false, false, false, false, true, true, false, false, false, [ null, "42.073153", "-87.69073", null, false ] ]
+, [ 201, "6D7E6A52-3964-4B87-9C87-41E5AD95790D", 201, 1514938516, "395245", 1514938516, "395245", null, "30197", "N", "Logan Square (O'Hare-bound)", "Logan Square", "Logan Square (Blue Line)", "41020", true, false, true, false, false, false, false, false, false, false, [ null, "41.929728", "-87.708541", null, false ] ]
+, [ 202, "F5010E01-F501-46FE-A6CB-7BF8111422F2", 202, 1514938516, "395245", 1514938516, "395245", null, "30198", "S", "Logan Square (Forest Pk-bound)", "Logan Square", "Logan Square (Blue Line)", "41020", true, false, true, false, false, false, false, false, false, false, [ null, "41.929728", "-87.708541", null, false ] ]
+, [ 203, "6120239C-5ADD-4CBC-AC66-34E27B83D7F0", 203, 1514938516, "395245", 1514938516, "395245", null, "30251", "N", "Loyola (Howard-bound)", "Loyola", "Loyola (Red Line)", "41300", true, true, false, false, false, false, false, false, false, false, [ null, "42.001073", "-87.661061", null, false ] ]
+, [ 204, "CC35B023-E68A-4152-B7FD-E0757987F936", 204, 1514938516, "395245", 1514938516, "395245", null, "30252", "S", "Loyola (95th-bound)", "Loyola", "Loyola (Red Line)", "41300", true, true, false, false, false, false, false, false, false, false, [ null, "42.001073", "-87.661061", null, false ] ]
+, [ 205, "5B651CD9-6B35-48D7-9AC2-48D75EACC248", 205, 1514938516, "395245", 1514938516, "395245", null, "30052", "N", "Main (Linden-bound)", "Main", "Main (Purple Line)", "40270", false, false, false, false, false, true, true, false, false, false, [ null, "42.033456", "-87.679538", null, false ] ]
+, [ 206, "63917F35-416C-4C65-B59B-A79D25B2823F", 206, 1514938516, "395245", 1514938516, "395245", null, "30053", "S", "Main (Howard-Loop-bound)", "Main", "Main (Purple Line)", "40270", false, false, false, false, false, true, true, false, false, false, [ null, "42.033456", "-87.679538", null, false ] ]
+, [ 207, "4854AA84-49FC-4BE4-9B65-B1E4BCEFC8BF", 207, 1514938516, "395245", 1514938516, "395245", null, "30091", "S", "Merchandise Mart (Loop-bound)", "Merchandise Mart", "Merchandise Mart (Brown & Purple Lines)", "40460", true, false, false, false, true, false, true, false, false, false, [ null, "41.888969", "-87.633924", null, false ] ]
+, [ 208, "AFA4FA4C-D4E9-4D5F-9F81-9A9E7EB5ED3C", 208, 1514938516, "395245", 1514938516, "395245", null, "30090", "N", "Merchandise Mart (Kimball-Linden-bound)", "Merchandise Mart", "Merchandise Mart (Brown & Purple Lines)", "40460", true, false, false, false, true, false, true, false, false, false, [ null, "41.888969", "-87.633924", null, false ] ]
+, [ 209, "B8586602-0943-4609-A243-D88CDA01F74D", 209, 1514938516, "395245", 1514938516, "395245", null, "30182", "S", "Midway (Arrival)", "Midway", "Midway (Orange Line)", "40930", true, false, false, false, false, false, false, false, false, true, [ null, "41.78661", "-87.737875", null, false ] ]
+, [ 210, "408AD518-01D6-4F4B-ABC1-27AB1A604291", 210, 1514938516, "395245", 1514938516, "395245", null, "30181", "N", "Midway (Loop-bound)", "Midway", "Midway (Orange Line)", "40930", true, false, false, false, false, false, false, false, false, true, [ null, "41.78661", "-87.737875", null, false ] ]
+, [ 211, "276C1818-381E-4C7D-A652-A2A801C52BC0", 211, 1514938516, "395245", 1514938516, "395245", null, "30153", "N", "Monroe (O'Hare-bound)", "Monroe", "Monroe (Blue Line)", "40790", false, false, true, false, false, false, false, false, false, false, [ null, "41.880703", "-87.629378", null, false ] ]
+, [ 212, "418B6508-6981-478B-8446-FF8175872202", 212, 1514938516, "395245", 1514938516, "395245", null, "30211", "N", "Monroe (Howard-bound)", "Monroe", "Monroe (Red Line)", "41090", false, true, false, false, false, false, false, false, false, false, [ null, "41.880745", "-87.627696", null, false ] ]
+, [ 213, "FB496BC2-00CE-4DEA-8BF0-941ADDD5B6A2", 213, 1514938516, "395245", 1514938516, "395245", null, "30212", "S", "Monroe (95th-bound)", "Monroe", "Monroe (Red Line)", "41090", false, true, false, false, false, false, false, false, false, false, [ null, "41.880745", "-87.627696", null, false ] ]
+, [ 214, "45BB8021-99DC-4029-8723-627D9C709B21", 214, 1514938516, "395245", 1514938516, "395245", null, "30154", "S", "Monroe (Forest Pk-bound)", "Monroe", "Monroe (Blue Line)", "40790", false, false, true, false, false, false, false, false, false, false, [ null, "41.880703", "-87.629378", null, false ] ]
+, [ 215, "D575C5D6-07F0-4312-83A6-E2DA21041EB2", 215, 1514938516, "395245", 1514938516, "395245", null, "30260", "S", "Montrose (Forest Pk-bound)", "Montrose", "Montrose (Blue Line)", "41330", false, false, true, false, false, false, false, false, false, false, [ null, "41.961539", "-87.743574", null, false ] ]
+, [ 216, "B6B0C5D5-9B4D-463C-AEC2-9695744B3EAE", 216, 1514938516, "395245", 1514938516, "395245", null, "30259", "N", "Montrose (O'Hare-bound)", "Montrose", "Montrose (Blue Line)", "41330", false, false, true, false, false, false, false, false, false, false, [ null, "41.961539", "-87.743574", null, false ] ]
+, [ 217, "17E156F6-829C-4F8C-9815-D89319CB093B", 217, 1514938516, "395245", 1514938516, "395245", null, "30287", "N", "Montrose (Kimball-bound)", "Montrose", "Montrose (Brown Line)", "41500", true, false, false, false, true, false, false, false, false, false, [ null, "41.961756", "-87.675047", null, false ] ]
+, [ 218, "9C3E5DD5-4232-4E7B-954F-15E9EF91305D", 218, 1514938516, "395245", 1514938516, "395245", null, "30288", "S", "Montrose (Loop-bound)", "Montrose", "Montrose (Brown Line)", "41500", true, false, false, false, true, false, false, false, false, false, [ null, "41.961756", "-87.675047", null, false ] ]
+, [ 219, "5C2D5EB1-747B-46B2-A14A-6E342AC1EBDD", 219, 1514938516, "395245", 1514938516, "395245", null, "30296", "W", "Morgan (Harlem-54th/Cermak-bound)", "Morgan", "Morgan (Green & Pink Lines)", "41510", true, false, false, true, false, false, false, false, true, false, [ null, "41.885586", "-87.652193", null, false ] ]
+, [ 220, "B7E0B8CE-D251-4D9A-AFBD-45D57DE0D05B", 220, 1514938516, "395245", 1514938516, "395245", null, "30295", "E", "Morgan (Loop-63rd-bound)", "Morgan", "Morgan (Green & Pink Lines)", "41510", true, false, false, true, false, false, false, false, true, false, [ null, "41.885586", "-87.652193", null, false ] ]
+, [ 221, "0E3BBD31-3D9A-41B5-83BF-B48D891B9184", 221, 1514938516, "395245", 1514938516, "395245", null, "30020", "N", "Morse (Howard-bound)", "Morse", "Morse (Red Line)", "40100", false, true, false, false, false, false, false, false, false, false, [ null, "42.008362", "-87.665909", null, false ] ]
+, [ 222, "469A1673-CC11-4C35-B6A5-EF5942CBDF02", 222, 1514938516, "395245", 1514938516, "395245", null, "30021", "S", "Morse (95th-bound)", "Morse", "Morse (Red Line)", "40100", false, true, false, false, false, false, false, false, false, false, [ null, "42.008362", "-87.665909", null, false ] ]
+, [ 223, "614849CE-EF41-43C1-B264-28AE0A4012B5", 223, 1514938516, "395245", 1514938516, "395245", null, "30125", "N", "North/Clybourn (Howard-bound)", "North/Clybourn", "North/Clybourn (Red Line)", "40650", false, true, false, false, false, false, false, false, false, false, [ null, "41.910655", "-87.649177", null, false ] ]
+, [ 224, "3460E94B-1D5B-4E13-8C42-46E677E17A53", 224, 1514938516, "395245", 1514938516, "395245", null, "30126", "S", "North/Clybourn (95th-bound)", "North/Clybourn", "North/Clybourn (Red Line)", "40650", false, true, false, false, false, false, false, false, false, false, [ null, "41.910655", "-87.649177", null, false ] ]
+, [ 225, "C5A7B31A-4009-4656-899B-D618FC05D3A7", 225, 1514938516, "395245", 1514938516, "395245", null, "30079", "S", "Noyes (Howard-Loop-bound)", "Noyes", "Noyes (Purple Line)", "40400", false, false, false, false, false, true, true, false, false, false, [ null, "42.058282", "-87.683337", null, false ] ]
+, [ 226, "64F47FC5-868B-40D6-8778-F26C4062C508", 226, 1514938516, "395245", 1514938516, "395245", null, "30078", "N", "Noyes (Linden-bound)", "Noyes", "Noyes (Purple Line)", "40400", false, false, false, false, false, true, true, false, false, false, [ null, "42.058282", "-87.683337", null, false ] ]
+, [ 227, "C50139FC-31C1-41E1-B1EA-8A2E38CB8E09", 227, 1514938516, "395245", 1514938516, "395245", null, "30263", "E", "Oak Park (63rd-bound)", "Oak Park", "Oak Park (Green Line)", "41350", false, false, false, true, false, false, false, false, false, false, [ null, "41.886988", "-87.793783", null, false ] ]
+, [ 228, "6D48510B-74A4-4CF8-9E1A-8BB99A392605", 228, 1514938516, "395245", 1514938516, "395245", null, "30035", "W", "Oak Park (Forest Pk-bound)", "Oak Park", "Oak Park (Blue Line)", "40180", false, false, true, false, false, false, false, false, false, false, [ null, "41.872108", "-87.791602", null, false ] ]
+, [ 229, "F3E447E4-12EA-4086-8F97-6D4E36DC6117", 229, 1514938516, "395245", 1514938516, "395245", null, "30034", "E", "Oak Park (O'Hare-bound)", "Oak Park", "Oak Park (Blue Line)", "40180", false, false, true, false, false, false, false, false, false, false, [ null, "41.872108", "-87.791602", null, false ] ]
+, [ 230, "5040FD82-883D-442A-8E66-1E0F1B0B9BC5", 230, 1514938516, "395245", 1514938516, "395245", null, "30264", "W", "Oak Park (Harlem-bound)", "Oak Park", "Oak Park (Green Line)", "41350", false, false, false, true, false, false, false, false, false, false, [ null, "41.886988", "-87.793783", null, false ] ]
+, [ 231, "62E2319C-4618-44E4-851E-ED72C9FD4147", 231, 1514938516, "395245", 1514938516, "395245", null, "30298", "S", "Oakton-Skokie (Howard-bound)", "Oakton-Skokie", "Oakton-Skokie (Yellow Line)", "41680", true, false, false, false, false, false, false, true, false, false, [ null, "42.02624348", "-87.74722084", null, false ] ]
+, [ 232, "C6126EEE-1FA9-44F5-83AF-D121AD605F02", 232, 1514938516, "395245", 1514938516, "395245", null, "30297", "N", "Oakton-Skokie (Dempster-Skokie-bound)", "Oakton-Skokie", "Oakton-Skokie (Yellow Line)", "41680", true, false, false, false, false, false, false, true, false, false, [ null, "42.02624348", "-87.74722084", null, false ] ]
+, [ 233, "E53FD902-3955-4952-8776-3F513E74F7AF", 233, 1514938516, "395245", 1514938516, "395245", null, "30172", "S", "O'Hare (Forest Pk-bound)", "O'Hare", "O'Hare (Blue Line)", "40890", true, false, true, false, false, false, false, false, false, false, [ null, "41.97766526", "-87.90422307", null, false ] ]
+, [ 234, "A219D8AD-AAA3-4346-8F98-4348C0D80529", 234, 1514938516, "395245", 1514938516, "395245", null, "30171", "N", "O'Hare (Terminal Arrival)", "O'Hare", "O'Hare (Blue Line)", "40890", true, false, true, false, false, false, false, false, false, false, [ null, "41.97766526", "-87.90422307", null, false ] ]
+, [ 235, "9425FEAB-88F2-43C7-9D5F-88A75B6FDF10", 235, 1514938516, "395245", 1514938516, "395245", null, "30254", "S", "Paulina (Loop-bound)", "Paulina", "Paulina (Brown Line)", "41310", true, false, false, false, true, false, false, false, false, false, [ null, "41.943623", "-87.670907", null, false ] ]
+, [ 236, "454F661D-7733-4069-9A8A-3583FC244238", 236, 1514938516, "395245", 1514938516, "395245", null, "30253", "N", "Paulina (Kimball-bound)", "Paulina", "Paulina (Brown Line)", "41310", true, false, false, false, true, false, false, false, false, false, [ null, "41.943623", "-87.670907", null, false ] ]
+, [ 237, "B9B9ED49-6503-4B14-8872-C87F0DDEA8F9", 237, 1514938516, "395245", 1514938516, "395245", null, "30200", "W", "Polk (54th/Cermak-bound)", "Polk", "Polk (Pink Line)", "41030", true, false, false, false, false, false, false, false, true, false, [ null, "41.871551", "-87.66953", null, false ] ]
+, [ 238, "F1D5B50E-908C-40A7-B66B-572A146A822F", 238, 1514938516, "395245", 1514938516, "395245", null, "30199", "E", "Polk (Loop-bound)", "Polk", "Polk (Pink Line)", "41030", true, false, false, false, false, false, false, false, true, false, [ null, "41.871551", "-87.66953", null, false ] ]
+, [ 239, "C6319349-DE67-48F2-A462-4264F58EB939", 239, 1514938516, "395245", 1514938516, "395245", null, "30028", "E", "Pulaski (Loop-bound)", "Pulaski", "Pulaski (Pink Line)", "40150", true, false, false, false, false, false, false, false, true, false, [ null, "41.853732", "-87.724311", null, false ] ]
+, [ 240, "977B27F1-EA47-41D9-B0D6-F0F0BB3EFECC", 240, 1514938516, "395245", 1514938516, "395245", null, "30185", "N", "Pulaski (Loop-bound)", "Pulaski", "Pulaski (Orange Line)", "40960", true, false, false, false, false, false, false, false, false, true, [ null, "41.799756", "-87.724493", null, false ] ]
+, [ 241, "BF355BD1-F18C-4C0E-8CB0-F410421AE697", 241, 1514938516, "395245", 1514938516, "395245", null, "30186", "S", "Pulaski (Midway-bound)", "Pulaski", "Pulaski (Orange Line)", "40960", true, false, false, false, false, false, false, false, false, true, [ null, "41.799756", "-87.724493", null, false ] ]
+, [ 242, "B4777E3A-9CCE-44A8-B30A-BD2389A61DBB", 242, 1514938516, "395245", 1514938516, "395245", null, "30029", "W", "Pulaski (54th/Cermak-bound)", "Pulaski", "Pulaski (Pink Line)", "40150", true, false, false, false, false, false, false, false, true, false, [ null, "41.853732", "-87.724311", null, false ] ]
+, [ 243, "F12DAE31-0A21-43DF-8641-C79110257526", 243, 1514938516, "395245", 1514938516, "395245", null, "30180", "W", "Pulaski (Forest Pk-bound)", "Pulaski", "Pulaski (Blue Line)", "40920", false, false, true, false, false, false, false, false, false, false, [ null, "41.873797", "-87.725663", null, false ] ]
+, [ 244, "000F48D4-A9D9-4F66-84E3-D4EC282DF7A1", 244, 1514938516, "395245", 1514938516, "395245", null, "30179", "E", "Pulaski (O'Hare-bound)", "Pulaski", "Pulaski (Blue Line)", "40920", false, false, true, false, false, false, false, false, false, false, [ null, "41.873797", "-87.725663", null, false ] ]
+, [ 245, "7FB4C4F3-8972-479D-8421-C63A79F1D0D6", 245, 1514938516, "395245", 1514938516, "395245", null, "30005", "E", "Pulaski (63rd-bound)", "Pulaski", "Pulaski (Green Line)", "40030", true, false, false, true, false, false, false, false, false, false, [ null, "41.885412", "-87.725404", null, false ] ]
+, [ 246, "885EAE6B-9399-414E-AD5E-B0383A752DF4", 246, 1514938516, "395245", 1514938516, "395245", null, "30006", "W", "Pulaski (Harlem-bound)", "Pulaski", "Pulaski (Green Line)", "40030", true, false, false, true, false, false, false, false, false, false, [ null, "41.885412", "-87.725404", null, false ] ]
+, [ 247, "DCFA25B7-61D6-489C-BAEB-A090F7D52F97", 247, 1514938516, "395245", 1514938516, "395245", null, "30007", "N", "Quincy/Wells (Inner Loop)", "Quincy/Wells", "Quincy/Wells (Brown, Orange, Purple & Pink Lines)", "40040", false, false, false, false, false, false, true, false, true, true, [ null, "41.878723", "-87.63374", null, false ] ]
+, [ 248, "D0B15F82-0651-40B2-A6AD-F7C105AD12AD", 248, 1514938516, "395245", 1514938516, "395245", null, "30008", "S", "Quincy/Wells (Outer Loop)", "Quincy/Wells", "Quincy/Wells (Brown, Orange, Purple & Pink Lines)", "40040", false, false, false, false, true, false, false, false, false, false, [ null, "41.878723", "-87.63374", null, false ] ]
+, [ 249, "6232B20C-FC96-4E6F-93FE-FDBC69A93886", 249, 1514938516, "395245", 1514938516, "395245", null, "30093", "W", "Racine (Forest Pk-bound)", "Racine", "Racine (Blue Line)", "40470", false, false, true, false, false, false, false, false, false, false, [ null, "41.87592", "-87.659458", null, false ] ]
+, [ 250, "96B79774-2D33-49A2-9491-FD09105CBF23", 250, 1514938516, "395245", 1514938516, "395245", null, "30092", "E", "Racine (O'Hare-bound)", "Racine", "Racine (Blue Line)", "40470", false, false, true, false, false, false, false, false, false, false, [ null, "41.87592", "-87.659458", null, false ] ]
+, [ 251, "628EE9B2-27F3-4CD8-B349-6F865B2F592B", 251, 1514938516, "395245", 1514938516, "395245", null, "30120", "W", "Ridgeland (Harlem-bound)", "Ridgeland", "Ridgeland (Green Line)", "40610", false, false, false, true, false, false, false, false, false, false, [ null, "41.887159", "-87.783661", null, false ] ]
+, [ 252, "877D2B33-C60A-4F9F-8A67-C2B06300DDBE", 252, 1514938516, "395245", 1514938516, "395245", null, "30119", "E", "Ridgeland (63rd-bound)", "Ridgeland", "Ridgeland (Green Line)", "40610", false, false, false, true, false, false, false, false, false, false, [ null, "41.887159", "-87.783661", null, false ] ]
+, [ 253, "0C72E348-F835-4C55-B0DF-18EC336999B5", 253, 1514938516, "395245", 1514938516, "395245", null, "30196", "S", "Rockwell (Loop-bound)", "Rockwell", "Rockwell (Brown Line)", "41010", true, false, false, false, true, false, false, false, false, false, [ null, "41.966115", "-87.6941", null, false ] ]
+, [ 254, "AFE797F0-9218-4808-8DF0-0CCBB116E7A3", 254, 1514938516, "395245", 1514938516, "395245", null, "30195", "N", "Rockwell (Kimball-bound)", "Rockwell", "Rockwell (Brown Line)", "41010", true, false, false, false, true, false, false, false, false, false, [ null, "41.966115", "-87.6941", null, false ] ]
+, [ 255, "E724D2D2-589D-4840-AFEE-91CD75D16CC9", 255, 1514938516, "395245", 1514938516, "395245", null, "30081", "S", "Roosevelt (Midway-63rd-bound)", "Roosevelt", "Roosevelt (Red, Orange & Green Lines)", "41400", true, false, false, true, false, false, false, false, false, true, [ null, "41.867405", "-87.62659", null, false ] ]
+, [ 256, "C745D949-E2B3-4B3A-ADC3-77ABBBA0D88A", 256, 1514938516, "395245", 1514938516, "395245", null, "30080", "N", "Roosevelt (Loop-Harlem-bound)", "Roosevelt", "Roosevelt (Red, Orange & Green Lines)", "41400", true, false, false, true, false, false, false, false, false, true, [ null, "41.867405", "-87.62659", null, false ] ]
+, [ 257, "4E0EB3EA-9C6C-49B3-B4AE-21E0EB30584C", 257, 1514938516, "395245", 1514938516, "395245", null, "30269", "N", "Roosevelt (Howard-bound)", "Roosevelt", "Roosevelt (Red, Orange & Green Lines)", "41400", true, true, false, false, false, false, false, false, false, false, [ null, "41.867368", "-87.627402", null, false ] ]
+, [ 258, "38360197-D09D-45DF-BC33-90433D11CB3E", 258, 1514938516, "395245", 1514938516, "395245", null, "30270", "S", "Roosevelt (95th-bound)", "Roosevelt", "Roosevelt (Red, Orange & Green Lines)", "41400", true, true, false, false, false, false, false, false, false, false, [ null, "41.867368", "-87.627402", null, false ] ]
+, [ 259, "7ED72619-30A3-4B24-95A1-481C5CC76362", 259, 1514938516, "395245", 1514938516, "395245", null, "30159", "N", "Rosemont (O'Hare-bound)", "Rosemont", "Rosemont (Blue Line)", "40820", true, false, true, false, false, false, false, false, false, false, [ null, "41.983507", "-87.859388", null, false ] ]
+, [ 260, "982F2A3C-DCA2-408C-A530-5349CC84705D", 260, 1514938516, "395245", 1514938516, "395245", null, "30160", "S", "Rosemont (Forest Pk-bound)", "Rosemont", "Rosemont (Blue Line)", "40820", true, false, true, false, false, false, false, false, false, false, [ null, "41.983507", "-87.859388", null, false ] ]
+, [ 261, "DC799C5C-BBFE-44A8-89FE-ADFDD99E78C8", 261, 1514938516, "395245", 1514938516, "395245", null, "30155", "N", "Sedgwick (Kimball-Linden-bound)", "Sedgwick", "Sedgwick (Brown & Purple Lines)", "40800", true, false, false, false, true, false, true, false, false, false, [ null, "41.910409", "-87.639302", null, false ] ]
+, [ 262, "354E0084-B4C4-49D8-B0ED-A42ECEF5CF09", 262, 1514938516, "395245", 1514938516, "395245", null, "30156", "S", "Sedgwick (Loop-bound)", "Sedgwick", "Sedgwick (Brown & Purple Lines)", "40800", true, false, false, false, true, false, true, false, false, false, [ null, "41.910409", "-87.639302", null, false ] ]
+, [ 263, "374CBE2F-FD08-4207-A4B8-6D34B0AF9460", 263, 1514938516, "395245", 1514938516, "395245", null, "30017", "S", "Sheridan (95th-bound)", "Sheridan", "Sheridan (Red Line)", "40080", false, true, false, false, false, false, false, false, false, false, [ null, "41.953775", "-87.654929", null, false ] ]
+, [ 264, "63181AED-066F-4B1E-A0B5-F8C8D96FD951", 264, 1514938516, "395245", 1514938516, "395245", null, "30016", "N", "Sheridan (Howard-bound)", "Sheridan", "Sheridan (Red Line)", "40080", false, true, false, false, false, false, false, false, false, false, [ null, "41.953775", "-87.654929", null, false ] ]
+, [ 265, "23AA1D1B-6BDA-4C39-9998-FE0F3303421F", 265, 1514938516, "395245", 1514938516, "395245", null, "30293", "N", "Sheridan (Howard-Linden-bound)", "Sheridan", "Sheridan (Red Line)", "40080", false, false, false, false, false, false, false, false, false, false, [ null, "41.953775", "-87.654929", null, false ] ]
+, [ 266, "A174CC59-2904-4416-86ED-1647B3C4BB25", 266, 1514938516, "395245", 1514938516, "395245", null, "30294", "S", "Sheridan (Loop-bound)", "Sheridan", "Sheridan (Red Line)", "40080", false, false, false, false, false, false, false, false, false, false, [ null, "41.953775", "-87.654929", null, false ] ]
+, [ 267, "5A3E21D4-C46E-47C1-AB0C-2FCA71442FDD", 267, 1514938516, "395245", 1514938516, "395245", null, "30163", "N", "South Blvd (Linden-bound)", "South Boulevard", "South Boulevard (Purple Line)", "40840", false, false, false, false, false, true, true, false, false, false, [ null, "42.027612", "-87.678329", null, false ] ]
+, [ 268, "48F82C79-6D1C-4A38-A838-14C9BA0AFD69", 268, 1514938516, "395245", 1514938516, "395245", null, "30164", "S", "South Blvd (Howard-Loop-bound)", "South Boulevard", "South Boulevard (Purple Line)", "40840", false, false, false, false, false, true, true, false, false, false, [ null, "42.027612", "-87.678329", null, false ] ]
+, [ 269, "9E0CC051-CD10-466B-A712-B769CBB835C4", 269, 1514938516, "395245", 1514938516, "395245", null, "30070", "N", "Southport (Kimball-bound)", "Southport", "Southport (Brown Line)", "40360", true, false, false, false, true, false, false, false, false, false, [ null, "41.943744", "-87.663619", null, false ] ]
+, [ 270, "6366A8AB-ED8F-4731-BF11-935A636576DC", 270, 1514938516, "395245", 1514938516, "395245", null, "30071", "S", "Southport (Loop-bound)", "Southport", "Southport (Brown Line)", "40360", true, false, false, false, true, false, false, false, false, false, [ null, "41.943744", "-87.663619", null, false ] ]
+, [ 271, "3A2E0183-FE87-4D61-9AA4-A15601951F31", 271, 1514938516, "395245", 1514938516, "395245", null, "30036", "N", "Sox-35th (Howard-bound)", "Sox-35th", "Sox-35th (Red Line)", "40190", true, true, false, false, false, false, false, false, false, false, [ null, "41.831191", "-87.630636", null, false ] ]
+, [ 272, "6D387011-4007-4769-9E46-512FC887B0B2", 272, 1514938516, "395245", 1514938516, "395245", null, "30037", "S", "Sox-35th (95th-bound)", "Sox-35th", "Sox-35th (Red Line)", "40190", true, true, false, false, false, false, false, false, false, false, [ null, "41.831191", "-87.630636", null, false ] ]
+, [ 273, "D1715F23-A3BD-453C-A729-6891542F4657", 273, 1514938516, "395245", 1514938516, "395245", null, "30051", "W", "State/Lake (Outer Loop)", "State/Lake", "State/Lake (Brown, Green, Orange, Pink & Purple Lines)", "40260", false, false, false, true, true, false, false, false, false, false, [ null, "41.88574", "-87.627835", null, false ] ]
+, [ 274, "11741850-B0FD-411A-8C59-DA469E71E055", 274, 1514938516, "395245", 1514938516, "395245", null, "30050", "E", "State/Lake (Inner Loop)", "State/Lake", "State/Lake (Brown, Green, Orange, Pink & Purple Lines)", "40260", false, false, false, true, false, false, true, false, true, true, [ null, "41.88574", "-87.627835", null, false ] ]
+, [ 275, "E58C3FD3-0727-467E-9B5E-690630E0F295", 275, 1514938516, "395245", 1514938516, "395245", null, "30170", "S", "Thorndale (95th-bound)", "Thorndale", "Thorndale (Red Line)", "40880", false, true, false, false, false, false, false, false, false, false, [ null, "41.990259", "-87.659076", null, false ] ]
+, [ 276, "C7A75E3C-5851-44DD-9BD6-231758AD194A", 276, 1514938516, "395245", 1514938516, "395245", null, "30169", "N", "Thorndale (Howard-bound)", "Thorndale", "Thorndale (Red Line)", "40880", false, true, false, false, false, false, false, false, false, false, [ null, "41.990259", "-87.659076", null, false ] ]
+, [ 277, "E660B122-2E88-4390-9A27-E3C579578871", 277, 1514938516, "395245", 1514938516, "395245", null, "30069", "W", "UIC-Halsted (Forest Pk-bound)", "UIC-Halsted", "UIC-Halsted (Blue Line)", "40350", true, false, true, false, false, false, false, false, false, false, [ null, "41.875474", "-87.649707", null, false ] ]
+, [ 278, "6B8E9D30-1C96-43DE-9589-4A430F6D7083", 278, 1514938516, "395245", 1514938516, "395245", null, "30068", "E", "UIC-Halsted (O'Hare-bound)", "UIC-Halsted", "UIC-Halsted (Blue Line)", "40350", true, false, true, false, false, false, false, false, false, false, [ null, "41.875474", "-87.649707", null, false ] ]
+, [ 279, "1FCB8D45-11C5-4713-AC61-8673BB05C021", 279, 1514938516, "395245", 1514938516, "395245", null, "30073", "S", "Washington (Forest Pk-bound)", "Washington", "Washington (Blue Line)", "40370", false, false, true, false, false, false, false, false, false, false, [ null, "41.883164", "-87.62944", null, false ] ]
+, [ 280, "36ED42AB-C20A-4482-9B28-F2467B2D3E96", 280, 1514938516, "395245", 1514938516, "395245", null, "30072", "N", "Washington (O'Hare-bound)", "Washington", "Washington (Blue Line)", "40370", false, false, true, false, false, false, false, false, false, false, [ null, "41.883164", "-87.62944", null, false ] ]
+, [ 281, "84FDEF5F-5CA9-4804-BD77-D2D0CEB67428", 281, 1514938516, "395245", 1514938516, "395245", null, "30383", "N", "Washington/Wabash (Outer Loop)", "Washington/Wabash", "Washington/Wabash (Brown, Green, Orange, Purple & Pink Lines)", "41700", true, false, false, true, true, false, false, false, false, false, [ null, "41.88322", "-87.626189", null, false ] ]
+, [ 282, "EE293694-4814-4586-8B38-DFE19C09110B", 282, 1514938516, "395245", 1514938516, "395245", null, "30384", "S", "Washington/Wabash (Inner Loop)", "Washington/Wabash", "Washington/Wabash (Brown, Green, Orange, Purple & Pink Lines)", "41700", true, false, false, true, false, false, true, false, true, true, [ null, "41.88322", "-87.626189", null, false ] ]
+, [ 283, "8BD1E692-E8F8-4BBC-9FEB-D0D345DFED78", 283, 1514938516, "395245", 1514938516, "395245", null, "30141", "N", "Washington/Wells (Inner Loop)", "Washington/Wells", "Washington/Wells (Brown, Orange, Purple & Pink Lines)", "40730", true, false, false, false, false, false, true, false, true, true, [ null, "41.882695", "-87.63378", null, false ] ]
+, [ 284, "E2A5A594-17E1-4890-A86F-93714DAD5C3B", 284, 1514938516, "395245", 1514938516, "395245", null, "30142", "S", "Washington/Wells (Outer Loop)", "Washington/Wells", "Washington/Wells (Brown, Orange, Purple & Pink Lines)", "40730", true, false, false, false, true, false, false, false, false, false, [ null, "41.882695", "-87.63378", null, false ] ]
+, [ 285, "4CCF4A5C-8316-45BF-A259-3BF67340B5C9", 285, 1514938516, "395245", 1514938516, "395245", null, "30231", "N", "Wellington (Kimball-Linden-bound)", "Wellington", "Wellington (Brown & Purple Lines)", "41210", true, false, false, false, true, false, true, false, false, false, [ null, "41.936033", "-87.653266", null, false ] ]
+, [ 286, "E45D62E6-FC7B-4BA5-B575-8B28EE404275", 286, 1514938516, "395245", 1514938516, "395245", null, "30232", "S", "Wellington (Loop-bound)", "Wellington", "Wellington (Brown & Purple Lines)", "41210", true, false, false, false, true, false, true, false, false, false, [ null, "41.936033", "-87.653266", null, false ] ]
+, [ 287, "20C7B190-BBC1-47D7-A2B2-0227BCE68026", 287, 1514938516, "395245", 1514938516, "395245", null, "30129", "N", "Western (O'Hare Branch) (O'Hare-bound)", "Western", "Western (Blue Line - O'Hare Branch)", "40670", true, false, true, false, false, false, false, false, false, false, [ null, "41.916157", "-87.687364", null, false ] ]
+, [ 288, "936A6FF1-70D1-4660-8EDB-15DEE7056997", 288, 1514938516, "395245", 1514938516, "395245", null, "30284", "S", "Western (Loop-bound)", "Western", "Western (Brown Line)", "41480", true, false, false, false, true, false, false, false, false, false, [ null, "41.966163", "-87.688502", null, false ] ]
+, [ 289, "0EA062D2-95B8-4120-B3FF-54A3242DADBD", 289, 1514938516, "395245", 1514938516, "395245", null, "30283", "N", "Western (Kimball-bound)", "Western", "Western (Brown Line)", "41480", true, false, false, false, true, false, false, false, false, false, [ null, "41.966163", "-87.688502", null, false ] ]
+, [ 290, "0A8F76FC-29F4-46D4-9C73-86B7CF51ED43", 290, 1514938516, "395245", 1514938516, "395245", null, "30143", "E", "Western (Loop-bound)", "Western", "Western (Pink Line)", "40740", true, false, false, false, false, false, false, false, true, false, [ null, "41.854225", "-87.685129", null, false ] ]
+, [ 291, "34F179E1-50AB-476F-8969-CD321CB525F6", 291, 1514938516, "395245", 1514938516, "395245", null, "30144", "W", "Western (54th/Cermak-bound)", "Western", "Western (Pink Line)", "40740", true, false, false, false, false, false, false, false, true, false, [ null, "41.854225", "-87.685129", null, false ] ]
+, [ 292, "9347C1F0-5AC0-4375-9E43-4B60A4523556", 292, 1514938516, "395245", 1514938516, "395245", null, "30061", "S", "Western (Midway-bound)", "Western", "Western (Orange Line)", "40310", true, false, false, false, false, false, false, false, false, true, [ null, "41.804546", "-87.684019", null, false ] ]
+, [ 293, "C2CEE95C-7E19-4117-AAB1-727D2CFC04B9", 293, 1514938516, "395245", 1514938516, "395245", null, "30060", "N", "Western (Loop-bound)", "Western", "Western (Orange Line)", "40310", true, false, false, false, false, false, false, false, false, true, [ null, "41.804546", "-87.684019", null, false ] ]
+, [ 294, "587C4C00-0238-4AEB-B8A3-24210331FBEC", 294, 1514938516, "395245", 1514938516, "395245", null, "30130", "S", "Western (O'Hare Branch) (Forest Pk-bound)", "Western", "Western (Blue Line - O'Hare Branch)", "40670", true, false, true, false, false, false, false, false, false, false, [ null, "41.916157", "-87.687364", null, false ] ]
+, [ 295, "EE8C7AF1-505B-4C51-91A1-7CD4CBBA6663", 295, 1514938516, "395245", 1514938516, "395245", null, "30042", "E", "Western (Forest Pk Branch) (O'Hare-bound)", "Western", "Western (Blue Line - Forest Park Branch)", "40220", false, false, true, false, false, false, false, false, false, false, [ null, "41.875478", "-87.688436", null, false ] ]
+, [ 296, "DF5ABB3F-DF40-4C2C-932B-539EFE86CF74", 296, 1514938516, "395245", 1514938516, "395245", null, "30043", "W", "Western (Forest Pk Branch) (Forest Pk-bound)", "Western", "Western (Blue Line - Forest Park Branch)", "40220", false, false, true, false, false, false, false, false, false, false, [ null, "41.875478", "-87.688436", null, false ] ]
+, [ 297, "65795872-A933-4C3E-B3CC-C9E200A90CB8", 297, 1514938516, "395245", 1514938579, "395245", null, "30106", "S", "Wilson (95th-bound)", "Wilson", "Wilson (Red & Purple Lines)", "40540", true, true, false, false, false, false, false, false, false, false, [ null, "41.964273", "-87.657588", null, false ] ]
+, [ 298, "89C09CB7-C2BF-4B15-81BC-9A0CF63DC5AB", 298, 1514938516, "395245", 1514938585, "395245", null, "30105", "N", "Wilson (Howard-bound)", "Wilson", "Wilson (Red & Purple Lines)", "40540", true, true, false, false, false, false, false, false, false, false, [ null, "41.964273", "-87.657588", null, false ] ]
+, [ 299, "46EB7C27-3B6B-41B9-A21E-324EAB25EC43", 299, 1514938516, "395245", 1514938591, "395245", null, "30385", "S", "Wilson (Loop-bound)", "Wilson", "Wilson (Red & Purple Lines)", "40540", true, false, false, false, false, false, true, false, false, false, [ null, "41.964273", "-87.657588", null, false ] ]
+, [ 300, "8A5C2101-38DB-43A9-8C14-E81FF8719BC4", 300, 1514938516, "395245", 1514938596, "395245", null, "30386", "N", "Wilson (Linden-bound)", "Wilson", "Wilson (Red & Purple Lines)", "40540", true, false, false, false, false, false, true, false, false, false, [ null, "41.964273", "-87.657588", null, false ] ]
+, [ 41, "8F008AC0-103E-423F-8231-EF3339515A34", 41, 1514938516, "395245", 1526408626, "395245", null, "30033", "W", "Ashland (Harlem-54th/Cermak-bound)", "Ashland", "Ashland (Green & Pink Lines)", "40170", true, false, false, true, false, false, false, false, true, false, [ null, "41.885269", "-87.666969", null, false ] ]
+ ]
+}
