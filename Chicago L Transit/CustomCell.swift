@@ -10,12 +10,15 @@ import Foundation
 import UIKit
 
 class CustomCell: UITableViewCell {
-    var message: String?
-    var mainImage: UIImage?
+    var name: String?
+    var colorLineImage: UIImage?
     
     var messageView: UITextView = {
         var textView = UITextView()
+        textView.font = .systemFont(ofSize: 25.0, weight: UIFont.Weight(rawValue: 7))
         textView.translatesAutoresizingMaskIntoConstraints = false
+        textView.isEditable = false
+        textView.isScrollEnabled = false
         return textView
     }()
     
@@ -30,23 +33,25 @@ class CustomCell: UITableViewCell {
         self.addSubview(messageView)
         self.addSubview(mainImageView)
         
-        mainImageView.leftAnchor.constraint(equalTo: self.leftAnchor).isActive = true
+        mainImageView.rightAnchor.constraint(equalTo: self.rightAnchor).isActive = true
         mainImageView.topAnchor.constraint(equalTo: self.topAnchor).isActive = true
         mainImageView.bottomAnchor.constraint(equalTo: self.bottomAnchor).isActive = true
-        mainImageView.widthAnchor.constraint(equalTo: self.heightAnchor).isActive = true
-        
-        messageView.leftAnchor.constraint(equalTo: self.mainImageView.rightAnchor).isActive = true
-        messageView.rightAnchor.constraint(equalTo: self.rightAnchor).isActive = true
+        mainImageView.widthAnchor.constraint(equalToConstant: 150).isActive = true
+
+        messageView.leftAnchor.constraint(equalTo: self.leftAnchor).isActive = true
+        messageView.rightAnchor.constraint(equalTo: self.mainImageView.leftAnchor).isActive = true
         messageView.bottomAnchor.constraint(equalTo: self.bottomAnchor).isActive = true
         messageView.topAnchor.constraint(equalTo: self.topAnchor).isActive = true
+        
+        
     }
     
     override func layoutSubviews() {
         super.layoutSubviews()
-        if let message = message {
-            messageView.text = message
+        if let name = name {
+            messageView.text = name
         }
-        if let image = mainImage {
+        if let image = colorLineImage {
             mainImageView.image = image
         }
     }

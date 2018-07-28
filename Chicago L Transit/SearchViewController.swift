@@ -10,28 +10,26 @@ import UIKit
 import MapKit
 
 struct CellData {
-    let image: UIImage?
-    let message: String?
+    let name: String?
+    let lineColorImage: UIImage?
 }
 
 
 
 class SearchViewController: UITableViewController {
     
+    var stationsCellData = [CellData]()
     var stations = [LStation]()
     
-    var cellData = [CellData]()
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        //grabData()
-        //print(stations[4].coordinate)
+        grabData()
         
-        cellData = [CellData.init(image: #imageLiteral(resourceName: "Flag_of_Chicago"), message: "This is a test"), CellData.init(image: #imageLiteral(resourceName: "Flag_of_Chicago"), message: "This is a test"), CellData.init(image: #imageLiteral(resourceName: "Flag_of_Chicago"), message: "This is a test"), CellData.init(image: #imageLiteral(resourceName: "Flag_of_Chicago"), message: "This is a test"), CellData.init(image: #imageLiteral(resourceName: "Flag_of_Chicago"), message: "This is a test"), CellData.init(image: #imageLiteral(resourceName: "Flag_of_Chicago"), message: "This is a test"), CellData.init(image: #imageLiteral(resourceName: "Flag_of_Chicago"), message: "This is a test")]
-        
+        //Sets up table View
         self.tableView.register(CustomCell.self, forCellReuseIdentifier: "custom")
-        
-        self.tableView.rowHeight = 70
+        self.tableView.rowHeight = 85
+        self.tableView.allowsSelection = false
         
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -55,35 +53,47 @@ class SearchViewController: UITableViewController {
     }
     
     func parse(json: JSON?){
+        var count = 0
         for result in json![].arrayValue {
-            var lines = [Bool]()
+            if count % 2 == 0 {
+                var lines = [Bool]()
             
-            let name = result["station_name"].stringValue
-            let stopName = result["stop_name"].stringValue
-            let accessible = result["ada"].boolValue
+                var name = result["station_name"].stringValue
+                let stopName = result["stop_name"].stringValue
+                let accessible = result["ada"].boolValue
+                
+                if name == "Harold Washington Library-State/Van Buren" {
+                    name = "Harold Washington Library"
+                }
             
-            let red = result["red"].boolValue
-            lines.append(red)
-            let blue = result["blue"].boolValue
-            lines.append(blue)
-            let green = result["g"].boolValue
-            lines.append(green)
-            let brown = result["brn"].boolValue
-            lines.append(brown)
-            let purple = result["p"].boolValue
-            lines.append(purple)
-            let purpleExp = result["pexp"].boolValue
-            lines.append(purpleExp)
-            let yellow = result["y"].boolValue
-            lines.append(yellow)
-            let pink = result["pnk"].boolValue
-            lines.append(pink)
-            let orange = result["o"].boolValue
-            lines.append(orange)
+                let red = result["red"].boolValue
+                lines.append(red)
+                let blue = result["blue"].boolValue
+                lines.append(blue)
+                let green = result["g"].boolValue
+                lines.append(green)
+                let brown = result["brn"].boolValue
+                lines.append(brown)
+                let purple = result["p"].boolValue
+                lines.append(purple)
+                let purpleExp = result["pexp"].boolValue
+                lines.append(purpleExp)
+                let yellow = result["y"].boolValue
+                lines.append(yellow)
+                let pink = result["pnk"].boolValue
+                lines.append(pink)
+                let orange = result["o"].boolValue
+                lines.append(orange)
             
-            let coordinate = CLLocationCoordinate2DMake(((result["location"])["coordinates"])[0].doubleValue, ((result["location"])["coordinates"])[1].doubleValue)
+                let coordinate = CLLocationCoordinate2DMake(((result["location"])["coordinates"])[0].doubleValue, ((result["location"])["coordinates"])[1].doubleValue)
             
-            stations.append(LStation(name: name, stopName: stopName, accessible: accessible, red: red, blue: blue, green: green, brown: brown, purple: purple, purpleEx: purpleExp, yellow: yellow, pink: pink, orange: orange, lines: lines, coordinate: coordinate))
+                let station = (LStation(name: name, stopName: stopName, accessible: accessible, red: red, blue: blue, green: green, brown: brown, purple: purple, purpleEx: purpleExp, yellow: yellow, pink: pink, orange: orange, lines: lines, coordinate: coordinate))
+            
+                stations.append(station)
+            
+                stationsCellData.append(CellData.init(name: name, lineColorImage: #imageLiteral(resourceName: "Flag_of_Chicago")))
+            }
+            count += 1
         }
     }
 
@@ -95,34 +105,18 @@ class SearchViewController: UITableViewController {
 
     // MARK: - Table view data source
 
-//    override func numberOfSections(in tableView: UITableView) -> Int {
-//        // #warning Incomplete implementation, return the number of sections
-//        return 0
-//    }
-
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        //return stations.count
-        return cellData.count
+        return stationsCellData.count
     }
 
+
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-//        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
-//
-//        let station = stations[indexPath.row]
-//
-//        cell.textLabel?.text = station.name
-//
-//        cell.backgroundColor = .blue
-//
-//
-//
-//        return cell
-        
         let cell = self.tableView.dequeueReusableCell(withIdentifier: "custom") as! CustomCell
-        
-        cell.mainImage = cellData[indexPath.row].image
-        cell.message = cellData[indexPath.row].message
-        
+
+        cell.colorLineImage = stationsCellData[indexPath.row].lineColorImage
+        cell.name = stationsCellData[indexPath.row].name
+
+        cell.layoutSubviews()
         return cell
     }
     
