@@ -34,8 +34,20 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="mapView" destination="chV-DZ-yVM" id="6vS-SV-WxO"/>
+                        <outlet property="searchDisplayController" destination="jg2-9U-PJM" id="w5w-jk-91n"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fQl-JX-C2A" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="jg2-9U-PJM">
+                    <connections>
+                        <outlet property="delegate" destination="mhk-S1-3Fr" id="j5M-Y1-BrQ"/>
+                        <outlet property="searchContentsController" destination="mhk-S1-3Fr" id="g2R-Tg-T3v"/>
+                        <outlet property="searchResultsDataSource" destination="mhk-S1-3Fr" id="ITc-UN-N2C"/>
+                        <outlet property="searchResultsDelegate" destination="mhk-S1-3Fr" id="ofN-Qk-c4F"/>
+                    </connections>
+                </searchDisplayController>
             </objects>
             <point key="canvasLocation" x="2202.898550724638" y="-33.423913043478265"/>
         </scene>

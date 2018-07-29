@@ -12,6 +12,7 @@ import UIKit
 class CustomCell: UITableViewCell {
     var name: String?
     var colorLineImage: UIImage?
+    var distance: String?
     
     var messageView: UITextView = {
         var textView = UITextView()
@@ -28,15 +29,31 @@ class CustomCell: UITableViewCell {
         return imageView
     }()
     
+    var distanceView: UITextView = {
+        var textView = UITextView()
+        textView.font = .systemFont(ofSize: 10.0, weight: UIFont.Weight(rawValue: 3))
+        textView.translatesAutoresizingMaskIntoConstraints = false
+        textView.isEditable = false
+        textView.isScrollEnabled = false
+        return textView
+    }()
+    
     override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         self.addSubview(messageView)
         self.addSubview(mainImageView)
+        self.addSubview(distanceView)
+        
+        distanceView.rightAnchor.constraint(equalTo: self.rightAnchor).isActive = true
+        distanceView.widthAnchor.constraint(equalToConstant: 23).isActive = true
+        distanceView.heightAnchor.constraint(equalToConstant: 10).isActive = true
+        distanceView.bottomAnchor.constraint(equalTo: self.bottomAnchor).isActive = true
         
         mainImageView.rightAnchor.constraint(equalTo: self.rightAnchor).isActive = true
         mainImageView.topAnchor.constraint(equalTo: self.topAnchor).isActive = true
         mainImageView.bottomAnchor.constraint(equalTo: self.bottomAnchor).isActive = true
-        mainImageView.widthAnchor.constraint(equalToConstant: 150).isActive = true
+        mainImageView.widthAnchor.constraint(equalToConstant: 161).isActive = true
+        //161
 
         messageView.leftAnchor.constraint(equalTo: self.leftAnchor).isActive = true
         messageView.rightAnchor.constraint(equalTo: self.mainImageView.leftAnchor).isActive = true
@@ -53,6 +70,9 @@ class CustomCell: UITableViewCell {
         }
         if let image = colorLineImage {
             mainImageView.image = image
+        }
+        if let distance = distance {
+            distanceView.text = distance
         }
     }
     

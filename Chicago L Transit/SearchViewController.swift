@@ -12,6 +12,7 @@ import MapKit
 struct CellData {
     let name: String?
     let lineColorImage: UIImage?
+    let distance: String?
 }
 
 
@@ -91,7 +92,7 @@ class SearchViewController: UITableViewController {
             
                 stations.append(station)
             
-                stationsCellData.append(CellData.init(name: name, lineColorImage: #imageLiteral(resourceName: "Flag_of_Chicago")))
+                stationsCellData.append(CellData.init(name: name, lineColorImage: #imageLiteral(resourceName: "Flag_of_Chicago"), distance: "10.6 mi"))
             }
             count += 1
         }
@@ -101,8 +102,6 @@ class SearchViewController: UITableViewController {
         super.didReceiveMemoryWarning()
     }
     
-    
-
     // MARK: - Table view data source
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
