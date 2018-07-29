@@ -18,6 +18,7 @@
 		4A451211210A7E1B00C61783 /* LStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A451210210A7E1B00C61783 /* LStation.swift */; };
 		4A451213210AA0D500C61783 /* StationsAPI.json in Resources */ = {isa = PBXBuildFile; fileRef = 4A451212210AA0D500C61783 /* StationsAPI.json */; };
 		4A451215210B9CFF00C61783 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A451214210B9CFF00C61783 /* CustomCell.swift */; };
+		4A451217210E256C00C61783 /* LocationSearchTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A451216210E256C00C61783 /* LocationSearchTable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		4A451210210A7E1B00C61783 /* LStation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LStation.swift; sourceTree = "<group>"; };
 		4A451212210AA0D500C61783 /* StationsAPI.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = StationsAPI.json; sourceTree = "<group>"; };
 		4A451214210B9CFF00C61783 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		4A451216210E256C00C61783 /* LocationSearchTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchTable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				4A2E1649210A738200283809 /* Main.storyboard */,
 				4A2E1647210A738200283809 /* ViewController.swift */,
 				4A2E1665210A781F00283809 /* SearchViewController.swift */,
+				4A451216210E256C00C61783 /* LocationSearchTable.swift */,
 				4A451214210B9CFF00C61783 /* CustomCell.swift */,
 				4A451210210A7E1B00C61783 /* LStation.swift */,
 				4A2E164C210A738300283809 /* Assets.xcassets */,
@@ -213,6 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A451217210E256C00C61783 /* LocationSearchTable.swift in Sources */,
 				4A2E1666210A781F00283809 /* SearchViewController.swift in Sources */,
 				4A2E1648210A738200283809 /* ViewController.swift in Sources */,
 				4A2E1646210A738200283809 /* AppDelegate.swift in Sources */,

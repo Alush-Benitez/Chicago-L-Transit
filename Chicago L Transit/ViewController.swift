@@ -17,6 +17,8 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
     
     let locationManager = CLLocationManager()
     
+    var resultSearchController:UISearchController? = nil
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -26,6 +28,19 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
         locationManager.delegate = self
         locationManager.startUpdatingLocation()
         mapView.delegate = self
+        
+        //Set up search bar
+        let locationSearchTable = storyboard!.instantiateViewController(withIdentifier: "LocationSearchTable") as! LocationSearchTable
+        resultSearchController = UISearchController(searchResultsController: locationSearchTable)
+        resultSearchController?.searchResultsUpdater = locationSearchTable
+        let searchBar = resultSearchController!.searchBar
+        searchBar.sizeToFit()
+        searchBar.placeholder = "Search for places"
+        navigationItem.titleView = resultSearchController?.searchBar
+        resultSearchController?.hidesNavigationBarDuringPresentation = false
+        resultSearchController?.dimsBackgroundDuringPresentation = true
+        definesPresentationContext = true
+        locationSearchTable.mapView = mapView
     }
     
     override func didReceiveMemoryWarning() {
