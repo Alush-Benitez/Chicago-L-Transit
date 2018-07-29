@@ -14,6 +14,10 @@ class LocationSearchTable: UITableViewController, MKLocalSearchCompleterDelegate
     
     var mapView: MKMapView? = nil
     var matchingItems:[MKLocalSearchCompletion] = []
+    
+    override func viewDidLoad() {
+        self.tableView.rowHeight = 60
+    }
 
     
     func updateSearchResults(for searchController: UISearchController) {
@@ -44,7 +48,31 @@ class LocationSearchTable: UITableViewController, MKLocalSearchCompleterDelegate
         let searchResult = matchingItems[indexPath.row]
         let cell = UITableViewCell(style: .subtitle, reuseIdentifier: nil)
         cell.textLabel?.text = searchResult.title
-        cell.detailTextLabel?.text = searchResult.subtitle
+        cell.textLabel?.font = .systemFont(ofSize: 17.0, weight: UIFont.Weight(rawValue: 1))
+        
+        //Make address look good
+        let address = searchResult.subtitle
+        var key = ", IL"
+        var check = 0
+        var count = 0
+        var countKeep = address.count
+
+
+        for char in address {
+            if char == key.first {
+                check += 1
+                if check == 4 {
+                    countKeep = count - 3
+                }
+                key = String(key.suffix(key.count - 1))
+            }
+            count += 1
+        }
+
+        cell.detailTextLabel?.text = String(address.prefix(countKeep))
+        
+        
+
         return cell
     }
 }

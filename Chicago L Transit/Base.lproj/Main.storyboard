@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Map-->
+        <!--View Controller-->
         <scene sceneID="YFl-Qr-1O7">
             <objects>
                 <viewController id="mhk-S1-3Fr" customClass="ViewController" customModule="Chicago_L_Transit" customModuleProvider="target" sceneMemberID="viewController">
@@ -18,16 +18,30 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="chV-DZ-yVM">
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="chV-DZ-yVM">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </mapView>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="scW-e3-D6h">
+                                <rect key="frame" x="0.0" y="687" width="414" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <tabBarItem title="Stations" image="menu" id="uge-iN-NwM"/>
+                                    <tabBarItem title="Map" image="marker" id="P4x-XW-r4L"/>
+                                    <tabBarItem systemItem="favorites" id="DA3-Ct-qsj"/>
+                                </items>
+                            </tabBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="chV-DZ-yVM" firstAttribute="top" secondItem="VHK-yt-Mkb" secondAttribute="top" id="A1m-FJ-fGu"/>
+                            <constraint firstItem="chV-DZ-yVM" firstAttribute="trailing" secondItem="QXj-vZ-mwa" secondAttribute="trailing" id="QZh-ud-2Gs"/>
+                            <constraint firstItem="chV-DZ-yVM" firstAttribute="leading" secondItem="QXj-vZ-mwa" secondAttribute="leading" id="Wma-ZC-3MQ"/>
+                            <constraint firstItem="chV-DZ-yVM" firstAttribute="bottom" secondItem="QXj-vZ-mwa" secondAttribute="bottom" id="grY-Jf-Lwk"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="QXj-vZ-mwa"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Map" id="x9B-H3-Rwl">
-                        <barButtonItem key="leftBarButtonItem" title="Item" image="icons8-heart-outline-30" id="YuI-aZ-vUG"/>
+                    <navigationItem key="navigationItem" id="x9B-H3-Rwl">
                         <barButtonItem key="rightBarButtonItem" systemItem="search" id="m4b-4r-mtp">
                             <connections>
                                 <segue destination="XSg-TZ-8Ho" kind="show" id="sm2-Vg-3rh"/>
@@ -143,6 +157,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="icons8-heart-outline-30" width="30" height="30"/>
+        <image name="marker" width="30" height="30"/>
+        <image name="menu" width="30" height="30"/>
     </resources>
 </document>
