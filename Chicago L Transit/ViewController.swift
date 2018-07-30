@@ -10,17 +10,29 @@ import UIKit
 import MapKit
 import CoreLocation
 
-class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDelegate {
+class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDelegate, UITabBarDelegate {
     
 
     @IBOutlet weak var mapView: MKMapView!
     
-    let locationManager = CLLocationManager()
+    //Tab Buttons
+    @IBOutlet weak var stationsTabButton: UITabBarItem!
+    @IBOutlet weak var mapTabButton: UITabBarItem!
+    @IBOutlet weak var favoritesTabButton: UITabBarItem!
+    @IBOutlet weak var tabBar: TabBar!
     
+    
+    let locationManager = CLLocationManager()
     var resultSearchController:UISearchController? = nil
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //Sets tab bar stuff
+        tabBar.alpha = 0.96
+        tabBar.selectedItem = mapTabButton
+        tabBar.delegate = self
+        
         
         //Add user location
         locationManager.requestWhenInUseAuthorization()
@@ -47,6 +59,8 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
         super.didReceiveMemoryWarning()
     }
     
+    
+    
     //Zoom in to User's current location
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         if let location = locations.first {
@@ -55,7 +69,20 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
             mapView.setRegion(region, animated: true)
         }
     }
-
-
+    
+    func tabBar(_ tabBar: UITabBar, didSelect item: UITabBarItem) {
+        print("asjndflkadf")
+        print(item)
+        print(stationsTabButton)
+        if item == stationsTabButton {
+            performSegue(withIdentifier: "ShowSearchViewController", sender: nil)
+        } else if item == mapTabButton {
+            performSegue(withIdentifier: "ShowMainViewController", sender: nil)
+        }
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        print("ha")
+    }
 }
 

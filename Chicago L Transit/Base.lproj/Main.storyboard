@@ -21,7 +21,7 @@
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="chV-DZ-yVM">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                             </mapView>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="scW-e3-D6h">
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="scW-e3-D6h" customClass="TabBar" customModule="Chicago_L_Transit" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="687" width="414" height="49"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -41,16 +41,15 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="QXj-vZ-mwa"/>
                     </view>
-                    <navigationItem key="navigationItem" id="x9B-H3-Rwl">
-                        <barButtonItem key="rightBarButtonItem" systemItem="search" id="m4b-4r-mtp">
-                            <connections>
-                                <segue destination="XSg-TZ-8Ho" kind="show" id="sm2-Vg-3rh"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" id="x9B-H3-Rwl"/>
                     <connections>
+                        <outlet property="favoritesTabButton" destination="DA3-Ct-qsj" id="KYB-Wi-oOy"/>
+                        <outlet property="mapTabButton" destination="P4x-XW-r4L" id="eD4-IQ-egg"/>
                         <outlet property="mapView" destination="chV-DZ-yVM" id="6vS-SV-WxO"/>
                         <outlet property="searchDisplayController" destination="jg2-9U-PJM" id="w5w-jk-91n"/>
+                        <outlet property="stationsTabButton" destination="uge-iN-NwM" id="UWt-9k-kXj"/>
+                        <outlet property="tabBar" destination="scW-e3-D6h" id="qJE-wk-TLa"/>
+                        <segue destination="XSg-TZ-8Ho" kind="show" identifier="ShowSearchViewController" id="kgn-rG-Pwo"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fQl-JX-C2A" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -132,6 +131,9 @@
                             <outlet property="delegate" destination="XSg-TZ-8Ho" id="3bO-9b-ogz"/>
                         </connections>
                     </tableView>
+                    <connections>
+                        <segue destination="mhk-S1-3Fr" kind="show" identifier="ShowMainViewController" id="rey-Cv-icL"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NGB-oP-N0p" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -160,4 +162,7 @@
         <image name="marker" width="30" height="30"/>
         <image name="menu" width="30" height="30"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="rey-Cv-icL"/>
+    </inferredMetricsTieBreakers>
 </document>
