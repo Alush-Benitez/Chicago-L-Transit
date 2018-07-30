@@ -9,6 +9,6 @@
 import Foundation
 import UIKit
 
-class TabBar: UITabBar {
+class TabBar: UITabBar, UITabBarDelegate {
     
 }

@@ -85,9 +85,12 @@ class SearchViewController: UITableViewController {
                 lines.append(pink)
                 let orange = result["o"].boolValue
                 lines.append(orange)
-            
+                
+                
+                
                 let coordinate = CLLocationCoordinate2DMake(((result["location"])["coordinates"])[0].doubleValue, ((result["location"])["coordinates"])[1].doubleValue)
-            
+                
+                
                 let station = (LStation(name: name, stopName: stopName, accessible: accessible, red: red, blue: blue, green: green, brown: brown, purple: purple, purpleEx: purpleExp, yellow: yellow, pink: pink, orange: orange, lines: lines, coordinate: coordinate))
             
                 stations.append(station)
@@ -96,18 +99,34 @@ class SearchViewController: UITableViewController {
             }
             count += 1
         }
+        
     }
+//
+//    func reorderSationsByDistance(stations: [LStation]) -> [CellData] {
+//        var closestStation = stations.first
+//        for station in stations {
+//            if closerThanCurrentClosest(currentClosest: closestStation, checkingStation: station){
+//
+//            }
+//        }
+//    }
+//
+//    func closerThanCurrentClosest(currentClosest: LStation, checkingStation: LStation) -> Bool {
+//
+//    }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
     
-    // MARK: - Table view data source
-
+    
+    // ***********************
+    // SET UP TABLE VIEW CELLS
+    // ***********************
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return stationsCellData.count
     }
-
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = self.tableView.dequeueReusableCell(withIdentifier: "custom") as! CustomCell

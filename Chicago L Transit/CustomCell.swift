@@ -49,6 +49,7 @@ class CustomCell: UITableViewCell {
         distanceView.heightAnchor.constraint(equalToConstant: 10).isActive = true
         distanceView.bottomAnchor.constraint(equalTo: self.bottomAnchor).isActive = true
         
+        
         mainImageView.rightAnchor.constraint(equalTo: self.rightAnchor).isActive = true
         mainImageView.topAnchor.constraint(equalTo: self.topAnchor).isActive = true
         mainImageView.bottomAnchor.constraint(equalTo: self.bottomAnchor).isActive = true

@@ -14,32 +14,27 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
     
 
     @IBOutlet weak var mapView: MKMapView!
-    
-    //Tab Buttons
-    @IBOutlet weak var stationsTabButton: UITabBarItem!
-    @IBOutlet weak var mapTabButton: UITabBarItem!
-    @IBOutlet weak var favoritesTabButton: UITabBarItem!
-    @IBOutlet weak var tabBar: TabBar!
+    @IBOutlet weak var centerLocationButton: UIButton!
     
     
     let locationManager = CLLocationManager()
     var resultSearchController:UISearchController? = nil
+    var currentUserLocation = CLLocation()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        //Sets tab bar stuff
-        tabBar.alpha = 0.96
-        tabBar.selectedItem = mapTabButton
-        tabBar.delegate = self
-        
+        centerLocationButton.alpha = 0.9
+        centerLocationButton.layer.cornerRadius = 7
         
         //Add user location
         locationManager.requestWhenInUseAuthorization()
         mapView.showsUserLocation = true
         locationManager.delegate = self
         locationManager.startUpdatingLocation()
+        locationManager.desiredAccuracy = kCLLocationAccuracyBest
         mapView.delegate = self
+        mapView.showsScale = true
         
         //Set up search bar
         let locationSearchTable = storyboard!.instantiateViewController(withIdentifier: "LocationSearchTable") as! LocationSearchTable
@@ -60,29 +55,22 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
     }
     
     
-    
     //Zoom in to User's current location
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         if let location = locations.first {
+            currentUserLocation = location
             let span = MKCoordinateSpanMake(0.05, 0.05)
             let region = MKCoordinateRegion(center: location.coordinate, span: span)
             mapView.setRegion(region, animated: true)
         }
     }
     
-    func tabBar(_ tabBar: UITabBar, didSelect item: UITabBarItem) {
-        print("asjndflkadf")
-        print(item)
-        print(stationsTabButton)
-        if item == stationsTabButton {
-            performSegue(withIdentifier: "ShowSearchViewController", sender: nil)
-        } else if item == mapTabButton {
-            performSegue(withIdentifier: "ShowMainViewController", sender: nil)
-        }
+    
+    @IBAction func centerLocationTapped(_ sender: Any) {
+        let span = MKCoordinateSpanMake(0.05, 0.05)
+        let region = MKCoordinateRegion(center: currentUserLocation.coordinate, span: span)
+        mapView.setRegion(region, animated: true)
     }
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        print("ha")
-    }
 }
 

@@ -47,7 +47,8 @@ class LocationSearchTable: UITableViewController, MKLocalSearchCompleterDelegate
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let searchResult = matchingItems[indexPath.row]
         let cell = UITableViewCell(style: .subtitle, reuseIdentifier: nil)
-        cell.textLabel?.text = searchResult.title
+        
+        cell.textLabel?.text = searchResult.title + " · "
         cell.textLabel?.font = .systemFont(ofSize: 17.0, weight: UIFont.Weight(rawValue: 1))
         
         //Make address look good
@@ -56,8 +57,6 @@ class LocationSearchTable: UITableViewController, MKLocalSearchCompleterDelegate
         var check = 0
         var count = 0
         var countKeep = address.count
-
-
         for char in address {
             if char == key.first {
                 check += 1
@@ -68,7 +67,6 @@ class LocationSearchTable: UITableViewController, MKLocalSearchCompleterDelegate
             }
             count += 1
         }
-
         cell.detailTextLabel?.text = String(address.prefix(countKeep))
         
         

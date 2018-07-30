@@ -41,23 +41,4 @@ class LStation {
         self.coordinate = coordinate
         self.lines = lines
     }
-
-//    override init() {
-//        self.name = ""
-//        self.stopName = ""
-//        self.accessible = false
-//        self.red = false
-//        self.blue = false
-//        self.green = false
-//        self.brown = false
-//        self.purple = false
-//        self.purpleEx = false
-//        self.yellow = false
-//        self.pink = false
-//        self.orange = false
-//        self.coordinate = CLLocationCoordinate2D()
-//        self.lines = [Bool]()
-//    }
-    
-    
 }
