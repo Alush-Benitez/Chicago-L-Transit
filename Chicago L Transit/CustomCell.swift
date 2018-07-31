@@ -16,7 +16,7 @@ class CustomCell: UITableViewCell {
     
     var messageView: UITextView = {
         var textView = UITextView()
-        textView.font = .systemFont(ofSize: 25.0, weight: UIFont.Weight(rawValue: 7))
+        textView.font = .systemFont(ofSize: 20.0, weight: UIFont.Weight(rawValue: 7))
         textView.translatesAutoresizingMaskIntoConstraints = false
         textView.isEditable = false
         textView.isScrollEnabled = false

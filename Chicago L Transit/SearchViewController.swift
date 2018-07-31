@@ -25,7 +25,8 @@ class SearchViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        grabData()
+        self.grabData()
+        
         
         //Sets up table View
         self.tableView.register(CustomCell.self, forCellReuseIdentifier: "custom")
@@ -64,7 +65,7 @@ class SearchViewController: UITableViewController {
                 let accessible = result["ada"].boolValue
                 
                 if name == "Harold Washington Library-State/Van Buren" {
-                    name = "Harold Washington Library"
+                    name = "State/Van Buren"
                 }
             
                 let red = result["red"].boolValue

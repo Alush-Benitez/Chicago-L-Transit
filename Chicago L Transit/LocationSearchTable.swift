@@ -15,8 +15,10 @@ class LocationSearchTable: UITableViewController, MKLocalSearchCompleterDelegate
     var mapView: MKMapView? = nil
     var matchingItems:[MKLocalSearchCompletion] = []
     
+    var handleMapSearchDelegate: HandleMapSearch? = nil
+    
     override func viewDidLoad() {
-        self.tableView.rowHeight = 60
+        self.tableView.rowHeight = 70
     }
 
     
@@ -73,5 +75,20 @@ class LocationSearchTable: UITableViewController, MKLocalSearchCompleterDelegate
 
         return cell
     }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        let searchRequest = MKLocalSearchRequest(completion: matchingItems[indexPath.row])
+        let search = MKLocalSearch(request: searchRequest)
+        search.start { (response, error) in
+            let selectedItem = response?.mapItems[0].placemark
+            self.handleMapSearchDelegate?.dropPinZoomIn(placemark: selectedItem!)
+            self.dismiss(animated: true, completion: nil)
+        }
+        
+    }
+    
+    
 }
+
 
