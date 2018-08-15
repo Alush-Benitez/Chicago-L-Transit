@@ -26,8 +26,10 @@
                     </userDefinedRuntimeAttributes>
                     <connections>
                         <segue destination="XSg-TZ-8Ho" kind="relationship" relationship="viewControllers" id="57U-Hu-QJw"/>
-                        <segue destination="2o0-Ii-BR8" kind="relationship" relationship="viewControllers" id="xCv-3X-G90"/>
                         <segue destination="JSa-f6-A34" kind="relationship" relationship="viewControllers" id="mag-fU-8ig"/>
+                        <segue destination="2o0-Ii-BR8" kind="relationship" relationship="viewControllers" id="xCv-3X-G90"/>
+                        <segue destination="Luh-hQ-g8a" kind="relationship" relationship="viewControllers" id="Myz-AL-lJ7"/>
+                        <segue destination="Ssd-zo-2Qe" kind="relationship" relationship="viewControllers" id="XrB-j7-jaC"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bft-kE-SQ4" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -44,6 +46,10 @@
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="chV-DZ-yVM">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="sNv-Fb-TNV" appends="YES" id="ETp-D1-IkM"/>
+                                </connections>
                             </mapView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FG8-1F-Brj">
                                 <rect key="frame" x="315" y="558" width="50" height="50"/>
@@ -85,8 +91,13 @@
                         <outlet property="searchResultsDelegate" destination="mhk-S1-3Fr" id="ofN-Qk-c4F"/>
                     </connections>
                 </searchDisplayController>
+                <tapGestureRecognizer id="sNv-Fb-TNV">
+                    <connections>
+                        <action selector="mapTapped:" destination="mhk-S1-3Fr" id="Vsp-6x-7Fm"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="2798.5507246376815" y="-1919.021739130435"/>
+            <point key="canvasLocation" x="2911" y="-2463"/>
         </scene>
         <!--Location Search Table-->
         <scene sceneID="RE5-b1-bDk">
@@ -130,7 +141,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EH3-sd-gmg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2799" y="-2698"/>
+            <point key="canvasLocation" x="2910" y="-3373"/>
         </scene>
         <!--Stations-->
         <scene sceneID="ewb-xi-o13">
@@ -159,7 +170,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NGB-oP-N0p" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1929" y="-1202"/>
+            <point key="canvasLocation" x="1929" y="-2052"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="11f-S5-bAV">
@@ -188,7 +199,71 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MnB-4l-hca" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1929" y="-474"/>
+            <point key="canvasLocation" x="1929" y="-1202"/>
+        </scene>
+        <!--Settings-->
+        <scene sceneID="nxc-Lh-WKc">
+            <objects>
+                <collectionViewController id="Ssd-zo-2Qe" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="LRi-iO-L3f">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="p0b-k5-FuL">
+                            <size key="itemSize" width="50" height="50"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="QYI-3e-b4g">
+                                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </view>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="Ssd-zo-2Qe" id="mGD-mJ-Ge9"/>
+                            <outlet property="delegate" destination="Ssd-zo-2Qe" id="f7o-Bn-93R"/>
+                        </connections>
+                    </collectionView>
+                    <tabBarItem key="tabBarItem" title="Settings" image="settings" id="irY-P5-Gdr"/>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tUa-r9-HCD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1929" y="397"/>
+        </scene>
+        <!--Alerts-->
+        <scene sceneID="bVH-fE-4IG">
+            <objects>
+                <tableViewController id="Luh-hQ-g8a" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="l4j-v8-IAS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="NSj-E6-SoP">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="NSj-E6-SoP" id="aeJ-yT-PBl">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="Luh-hQ-g8a" id="Xun-NI-mev"/>
+                            <outlet property="delegate" destination="Luh-hQ-g8a" id="v00-QF-Tif"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="Alerts" image="high_priority" id="Hee-FO-Z65"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tKQ-jA-VIX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1929" y="-397"/>
         </scene>
         <!--Map-->
         <scene sceneID="9Co-T2-B8z">
@@ -207,12 +282,14 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d3M-iF-Tov" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1929" y="-1919"/>
+            <point key="canvasLocation" x="1929" y="-2764"/>
         </scene>
     </scenes>
     <resources>
+        <image name="high_priority" width="30" height="30"/>
         <image name="marker" width="30" height="30"/>
         <image name="menu" width="30" height="30"/>
         <image name="my-loc" width="27" height="26"/>
+        <image name="settings" width="30" height="30"/>
     </resources>
 </document>

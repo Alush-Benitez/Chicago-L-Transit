@@ -79,6 +79,12 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
         mapView.setRegion(region, animated: true)
     }
     
+    @IBAction func mapTapped(_ sender: Any) {
+        mapView.removeAnnotations(mapView.annotations)
+        searchBar.text = ""
+    }
+    
+    
 }
 extension ViewController: HandleMapSearch {
     func dropPinZoomIn(placemark: MKPlacemark){
