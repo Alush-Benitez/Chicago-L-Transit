@@ -72,6 +72,10 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
         }
     }
     
+    func displayStations(){
+        
+    }
+    
     
     @IBAction func centerLocationTapped(_ sender: Any) {
         let span = MKCoordinateSpanMake(0.05, 0.05)
@@ -83,6 +87,8 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
         mapView.removeAnnotations(mapView.annotations)
         searchBar.text = ""
     }
+    
+    
     
     
 }
